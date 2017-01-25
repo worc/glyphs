@@ -5,24 +5,24 @@
     ],
     "edges": [
       [
-        "NP.BOTTOM_CENTER",
-        "NP.BOTTOM_LEFT"
+        "BOTTOM_CENTER",
+        "BOTTOM_LEFT"
       ],
       [
-        "NP.BOTTOM_LEFT",
-        "NP.INNER_BOTTOM_LEFT"
+        "BOTTOM_LEFT",
+        "INNER_BOTTOM_LEFT"
       ],
       [
-        "NP.INNER_BOTTOM_LEFT",
-        "NP.CENTER"
+        "INNER_BOTTOM_LEFT",
+        "CENTER"
       ],
       [
-        "NP.CENTER",
-        "NP.INNER_TOP_RIGHT"
+        "CENTER",
+        "INNER_TOP_RIGHT"
       ],
       [
-        "NP.INNER_TOP_RIGHT",
-        "NP.TOP_RIGHT"
+        "INNER_TOP_RIGHT",
+        "TOP_RIGHT"
       ]
     ]
   },
@@ -32,16 +32,16 @@
     ],
     "edges": [
       [
-        "NP.TOP_LEFT",
-        "NP.INNER_BOTTOM_LEFT"
+        "TOP_LEFT",
+        "INNER_BOTTOM_LEFT"
       ],
       [
-        "NP.INNER_BOTTOM_LEFT",
-        "NP.CENTER"
+        "INNER_BOTTOM_LEFT",
+        "CENTER"
       ],
       [
-        "NP.CENTER",
-        "NP.INNER_BOTTOM_RIGHT"
+        "CENTER",
+        "INNER_BOTTOM_RIGHT"
       ]
     ]
   },
@@ -51,12 +51,12 @@
     ],
     "edges": [
       [
-        "NP.BOTTOM_LEFT",
-        "NP.INNER_TOP_LEFT"
+        "BOTTOM_LEFT",
+        "INNER_TOP_LEFT"
       ],
       [
-        "NP.INNER_TOP_LEFT",
-        "NP.TOP_CENTER"
+        "INNER_TOP_LEFT",
+        "TOP_CENTER"
       ]
     ]
   },
@@ -67,24 +67,24 @@
     ],
     "edges": [
       [
-        "NP.BOTTOM_LEFT",
-        "NP.INNER_TOP_LEFT"
+        "BOTTOM_LEFT",
+        "INNER_TOP_LEFT"
       ],
       [
-        "NP.INNER_TOP_LEFT",
-        "NP.INNER_BOTTOM_LEFT"
+        "INNER_TOP_LEFT",
+        "INNER_BOTTOM_LEFT"
       ],
       [
-        "NP.INNER_BOTTOM_LEFT",
-        "NP.CENTER"
+        "INNER_BOTTOM_LEFT",
+        "CENTER"
       ],
       [
-        "NP.CENTER",
-        "NP.INNER_TOP_RIGHT"
+        "CENTER",
+        "INNER_TOP_RIGHT"
       ],
       [
-        "NP.INNER_TOP_RIGHT",
-        "NP.INNER_BOTTOM_RIGHT"
+        "INNER_TOP_RIGHT",
+        "INNER_BOTTOM_RIGHT"
       ]
     ]
   },
@@ -94,28 +94,28 @@
     ],
     "edges": [
       [
-        "NP.TOP_CENTER",
-        "NP.TOP_LEFT"
+        "TOP_CENTER",
+        "TOP_LEFT"
       ],
       [
-        "NP.TOP_LEFT",
-        "NP.BOTTOM_LEFT"
+        "TOP_LEFT",
+        "BOTTOM_LEFT"
       ],
       [
-        "NP.BOTTOM_LEFT",
-        "NP.BOTTOM_CENTER"
+        "BOTTOM_LEFT",
+        "BOTTOM_CENTER"
       ],
       [
-        "NP.BOTTOM_CENTER",
-        "NP.BOTTOM_RIGHT"
+        "BOTTOM_CENTER",
+        "BOTTOM_RIGHT"
       ],
       [
-        "NP.BOTTOM_RIGHT",
-        "NP.TOP_RIGHT"
+        "BOTTOM_RIGHT",
+        "TOP_RIGHT"
       ],
       [
-        "NP.TOP_RIGHT",
-        "NP.TOP_CENTER"
+        "TOP_RIGHT",
+        "TOP_CENTER"
       ]
     ]
   },
@@ -125,16 +125,16 @@
     ],
     "edges": [
       [
-        "NP.INNER_TOP_LEFT",
-        "NP.INNER_TOP_RIGHT"
+        "INNER_TOP_LEFT",
+        "INNER_TOP_RIGHT"
       ],
       [
-        "NP.INNER_TOP_RIGHT",
-        "NP.INNER_BOTTOM_RIGHT"
+        "INNER_TOP_RIGHT",
+        "INNER_BOTTOM_RIGHT"
       ],
       [
-        "NP.INNER_BOTTOM_RIGHT",
-        "NP.CENTER"
+        "INNER_BOTTOM_RIGHT",
+        "CENTER"
       ]
     ]
   },
@@ -145,20 +145,20 @@
     ],
     "edges": [
       [
-        "NP.BOTTOM_LEFT",
-        "NP.INNER_TOP_LEFT"
+        "BOTTOM_LEFT",
+        "INNER_TOP_LEFT"
       ],
       [
-        "NP.INNER_TOP_LEFT",
-        "NP.TOP_CENTER"
+        "INNER_TOP_LEFT",
+        "TOP_CENTER"
       ],
       [
-        "NP.TOP_CENTER",
-        "NP.INNER_TOP_RIGHT"
+        "TOP_CENTER",
+        "INNER_TOP_RIGHT"
       ],
       [
-        "NP.INNER_TOP_RIGHT",
-        "NP.BOTTOM_RIGHT"
+        "INNER_TOP_RIGHT",
+        "BOTTOM_RIGHT"
       ]
     ]
   },
@@ -169,20 +169,20 @@
     ],
     "edges": [
       [
-        "NP.TOP_LEFT",
-        "NP.TOP_CENTER"
+        "TOP_LEFT",
+        "TOP_CENTER"
       ],
       [
-        "NP.TOP_CENTER",
-        "NP.INNER_TOP_RIGHT"
+        "TOP_CENTER",
+        "INNER_TOP_RIGHT"
       ],
       [
-        "NP.INNER_TOP_RIGHT",
-        "NP.TOP_RIGHT"
+        "INNER_TOP_RIGHT",
+        "TOP_RIGHT"
       ],
       [
-        "NP.TOP_RIGHT",
-        "NP.INNER_BOTTOM_RIGHT"
+        "TOP_RIGHT",
+        "INNER_BOTTOM_RIGHT"
       ]
     ]
   },
@@ -193,16 +193,16 @@
     ],
     "edges": [
       [
-        "NP.TOP_CENTER",
-        "NP.CENTER"
+        "TOP_CENTER",
+        "CENTER"
       ],
       [
-        "NP.CENTER",
-        "NP.INNER_BOTTOM_RIGHT"
+        "CENTER",
+        "INNER_BOTTOM_RIGHT"
       ],
       [
-        "NP.INNER_BOTTOM_RIGHT",
-        "NP.BOTTOM_RIGHT"
+        "INNER_BOTTOM_RIGHT",
+        "BOTTOM_RIGHT"
       ]
     ]
   },
@@ -212,24 +212,24 @@
     ],
     "edges": [
       [
-        "NP.INNER_TOP_LEFT",
-        "NP.INNER_TOP_RIGHT"
+        "INNER_TOP_LEFT",
+        "INNER_TOP_RIGHT"
       ],
       [
-        "NP.INNER_TOP_RIGHT",
-        "NP.INNER_BOTTOM_RIGHT"
+        "INNER_TOP_RIGHT",
+        "INNER_BOTTOM_RIGHT"
       ],
       [
-        "NP.INNER_BOTTOM_RIGHT",
-        "NP.BOTTOM_CENTER"
+        "INNER_BOTTOM_RIGHT",
+        "BOTTOM_CENTER"
       ],
       [
-        "NP.BOTTOM_CENTER",
-        "NP.INNER_BOTTOM_LEFT"
+        "BOTTOM_CENTER",
+        "INNER_BOTTOM_LEFT"
       ],
       [
-        "NP.INNER_BOTTOM_LEFT",
-        "NP.INNER_TOP_LEFT"
+        "INNER_BOTTOM_LEFT",
+        "INNER_TOP_LEFT"
       ]
     ]
   },
@@ -239,16 +239,16 @@
     ],
     "edges": [
       [
-        "NP.INNER_TOP_LEFT",
-        "NP.INNER_TOP_RIGHT"
+        "INNER_TOP_LEFT",
+        "INNER_TOP_RIGHT"
       ],
       [
-        "NP.INNER_TOP_RIGHT",
-        "NP.CENTER"
+        "INNER_TOP_RIGHT",
+        "CENTER"
       ],
       [
-        "NP.CENTER",
-        "NP.INNER_TOP_LEFT"
+        "CENTER",
+        "INNER_TOP_LEFT"
       ]
     ]
   },
@@ -258,20 +258,20 @@
     ],
     "edges": [
       [
-        "NP.TOP_LEFT",
-        "NP.INNER_TOP_LEFT"
+        "TOP_LEFT",
+        "INNER_TOP_LEFT"
       ],
       [
-        "NP.INNER_TOP_LEFT",
-        "NP.CENTER"
+        "INNER_TOP_LEFT",
+        "CENTER"
       ],
       [
-        "NP.CENTER",
-        "NP.INNER_TOP_RIGHT"
+        "CENTER",
+        "INNER_TOP_RIGHT"
       ],
       [
-        "NP.INNER_TOP_RIGHT",
-        "NP.TOP_RIGHT"
+        "INNER_TOP_RIGHT",
+        "TOP_RIGHT"
       ]
     ]
   },
@@ -281,24 +281,24 @@
     ],
     "edges": [
       [
-        "NP.BOTTOM_CENTER",
-        "NP.BOTTOM_LEFT"
+        "BOTTOM_CENTER",
+        "BOTTOM_LEFT"
       ],
       [
-        "NP.BOTTOM_LEFT",
-        "NP.INNER_BOTTOM_LEFT"
+        "BOTTOM_LEFT",
+        "INNER_BOTTOM_LEFT"
       ],
       [
-        "NP.INNER_BOTTOM_LEFT",
-        "NP.CENTER"
+        "INNER_BOTTOM_LEFT",
+        "CENTER"
       ],
       [
-        "NP.CENTER",
-        "NP.INNER_BOTTOM_RIGHT"
+        "CENTER",
+        "INNER_BOTTOM_RIGHT"
       ],
       [
-        "NP.INNER_BOTTOM_RIGHT",
-        "NP.TOP_RIGHT"
+        "INNER_BOTTOM_RIGHT",
+        "TOP_RIGHT"
       ]
     ]
   },
@@ -308,16 +308,16 @@
     ],
     "edges": [
       [
-        "NP.INNER_BOTTOM_LEFT",
-        "NP.CENTER"
+        "INNER_BOTTOM_LEFT",
+        "CENTER"
       ],
       [
-        "NP.CENTER",
-        "NP.BOTTOM_CENTER"
+        "CENTER",
+        "BOTTOM_CENTER"
       ],
       [
-        "NP.BOTTOM_CENTER",
-        "NP.INNER_BOTTOM_RIGHT"
+        "BOTTOM_CENTER",
+        "INNER_BOTTOM_RIGHT"
       ]
     ]
   },
@@ -327,32 +327,32 @@
     ],
     "edges": [
       [
-        "NP.BOTTOM_LEFT",
-        "NP.TOP_LEFT"
+        "BOTTOM_LEFT",
+        "TOP_LEFT"
       ],
       [
-        "NP.TOP_LEFT",
-        "NP.TOP_CENTER"
+        "TOP_LEFT",
+        "TOP_CENTER"
       ],
       [
-        "NP.TOP_CENTER",
-        "NP.TOP_RIGHT"
+        "TOP_CENTER",
+        "TOP_RIGHT"
       ],
       [
-        "NP.TOP_RIGHT",
-        "NP.INNER_TOP_RIGHT"
+        "TOP_RIGHT",
+        "INNER_TOP_RIGHT"
       ],
       [
-        "NP.INNER_TOP_RIGHT",
-        "NP.CENTER"
+        "INNER_TOP_RIGHT",
+        "CENTER"
       ],
       [
-        "NP.CENTER",
-        "NP.INNER_BOTTOM_LEFT"
+        "CENTER",
+        "INNER_BOTTOM_LEFT"
       ],
       [
-        "NP.INNER_BOTTOM_LEFT",
-        "NP.BOTTOM_CENTER"
+        "INNER_BOTTOM_LEFT",
+        "BOTTOM_CENTER"
       ]
     ]
   },
@@ -362,12 +362,12 @@
     ],
     "edges": [
       [
-        "NP.TOP_CENTER",
-        "NP.CENTER"
+        "TOP_CENTER",
+        "CENTER"
       ],
       [
-        "NP.CENTER",
-        "NP.BOTTOM_CENTER"
+        "CENTER",
+        "BOTTOM_CENTER"
       ]
     ]
   },
@@ -377,36 +377,36 @@
     ],
     "edges": [
       [
-        "NP.TOP_CENTER",
-        "NP.TOP_LEFT"
+        "TOP_CENTER",
+        "TOP_LEFT"
       ],
       [
-        "NP.TOP_LEFT",
-        "NP.BOTTOM_LEFT"
+        "TOP_LEFT",
+        "BOTTOM_LEFT"
       ],
       [
-        "NP.BOTTOM_LEFT",
-        "NP.BOTTOM_CENTER"
+        "BOTTOM_LEFT",
+        "BOTTOM_CENTER"
       ],
       [
-        "NP.BOTTOM_CENTER",
-        "NP.BOTTOM_RIGHT"
+        "BOTTOM_CENTER",
+        "BOTTOM_RIGHT"
       ],
       [
-        "NP.BOTTOM_RIGHT",
-        "NP.TOP_RIGHT"
+        "BOTTOM_RIGHT",
+        "TOP_RIGHT"
       ],
       [
-        "NP.TOP_RIGHT",
-        "NP.TOP_CENTER"
+        "TOP_RIGHT",
+        "TOP_CENTER"
       ],
       [
-        "NP.TOP_CENTER",
-        "NP.CENTER"
+        "TOP_CENTER",
+        "CENTER"
       ],
       [
-        "NP.CENTER",
-        "NP.BOTTOM_CENTER"
+        "CENTER",
+        "BOTTOM_CENTER"
       ]
     ]
   },
@@ -416,16 +416,16 @@
     ],
     "edges": [
       [
-        "NP.INNER_TOP_RIGHT",
-        "NP.INNER_TOP_LEFT"
+        "INNER_TOP_RIGHT",
+        "INNER_TOP_LEFT"
       ],
       [
-        "NP.INNER_TOP_LEFT",
-        "NP.CENTER"
+        "INNER_TOP_LEFT",
+        "CENTER"
       ],
       [
-        "NP.CENTER",
-        "NP.INNER_BOTTOM_LEFT"
+        "CENTER",
+        "INNER_BOTTOM_LEFT"
       ]
     ]
   },
@@ -435,24 +435,24 @@
     ],
     "edges": [
       [
-        "NP.BOTTOM_LEFT",
-        "NP.INNER_TOP_LEFT"
+        "BOTTOM_LEFT",
+        "INNER_TOP_LEFT"
       ],
       [
-        "NP.INNER_TOP_LEFT",
-        "NP.INNER_BOTTOM_LEFT"
+        "INNER_TOP_LEFT",
+        "INNER_BOTTOM_LEFT"
       ],
       [
-        "NP.INNER_BOTTOM_LEFT",
-        "NP.INNER_BOTTOM_RIGHT"
+        "INNER_BOTTOM_LEFT",
+        "INNER_BOTTOM_RIGHT"
       ],
       [
-        "NP.INNER_BOTTOM_RIGHT",
-        "NP.INNER_TOP_RIGHT"
+        "INNER_BOTTOM_RIGHT",
+        "INNER_TOP_RIGHT"
       ],
       [
-        "NP.INNER_TOP_RIGHT",
-        "NP.BOTTOM_RIGHT"
+        "INNER_TOP_RIGHT",
+        "BOTTOM_RIGHT"
       ]
     ]
   },
@@ -462,32 +462,32 @@
     ],
     "edges": [
       [
-        "NP.INNER_TOP_RIGHT",
-        "NP.CENTER"
+        "INNER_TOP_RIGHT",
+        "CENTER"
       ],
       [
-        "NP.CENTER",
-        "NP.INNER_TOP_LEFT"
+        "CENTER",
+        "INNER_TOP_LEFT"
       ],
       [
-        "NP.INNER_TOP_LEFT",
-        "NP.INNER_BOTTOM_LEFT"
+        "INNER_TOP_LEFT",
+        "INNER_BOTTOM_LEFT"
       ],
       [
-        "NP.INNER_BOTTOM_LEFT",
-        "NP.BOTTOM_CENTER"
+        "INNER_BOTTOM_LEFT",
+        "BOTTOM_CENTER"
       ],
       [
-        "NP.BOTTOM_CENTER",
-        "NP.BOTTOM_RIGHT"
+        "BOTTOM_CENTER",
+        "BOTTOM_RIGHT"
       ],
       [
-        "NP.BOTTOM_RIGHT",
-        "NP.TOP_RIGHT"
+        "BOTTOM_RIGHT",
+        "TOP_RIGHT"
       ],
       [
-        "NP.TOP_RIGHT",
-        "NP.TOP_CENTER"
+        "TOP_RIGHT",
+        "TOP_CENTER"
       ]
     ]
   },
@@ -497,16 +497,16 @@
     ],
     "edges": [
       [
-        "NP.BOTTOM_LEFT",
-        "NP.INNER_TOP_LEFT"
+        "BOTTOM_LEFT",
+        "INNER_TOP_LEFT"
       ],
       [
-        "NP.INNER_TOP_LEFT",
-        "NP.INNER_BOTTOM_LEFT"
+        "INNER_TOP_LEFT",
+        "INNER_BOTTOM_LEFT"
       ],
       [
-        "NP.INNER_BOTTOM_LEFT",
-        "NP.INNER_BOTTOM_RIGHT"
+        "INNER_BOTTOM_LEFT",
+        "INNER_BOTTOM_RIGHT"
       ]
     ]
   },
@@ -516,20 +516,20 @@
     ],
     "edges": [
       [
-        "NP.BOTTOM_LEFT",
-        "NP.INNER_BOTTOM_LEFT"
+        "BOTTOM_LEFT",
+        "INNER_BOTTOM_LEFT"
       ],
       [
-        "NP.INNER_BOTTOM_LEFT",
-        "NP.CENTER"
+        "INNER_BOTTOM_LEFT",
+        "CENTER"
       ],
       [
-        "NP.CENTER",
-        "NP.INNER_TOP_RIGHT"
+        "CENTER",
+        "INNER_TOP_RIGHT"
       ],
       [
-        "NP.INNER_TOP_RIGHT",
-        "NP.TOP_RIGHT"
+        "INNER_TOP_RIGHT",
+        "TOP_RIGHT"
       ]
     ]
   },
@@ -539,36 +539,36 @@
     ],
     "edges": [
       [
-        "NP.INNER_BOTTOM_LEFT",
-        "NP.BOTTOM_LEFT"
+        "INNER_BOTTOM_LEFT",
+        "BOTTOM_LEFT"
       ],
       [
-        "NP.BOTTOM_LEFT",
-        "NP.TOP_LEFT"
+        "BOTTOM_LEFT",
+        "TOP_LEFT"
       ],
       [
-        "NP.TOP_LEFT",
-        "NP.INNER_TOP_LEFT"
+        "TOP_LEFT",
+        "INNER_TOP_LEFT"
       ],
       [
-        "NP.INNER_TOP_LEFT",
-        "NP.CENTER"
+        "INNER_TOP_LEFT",
+        "CENTER"
       ],
       [
-        "NP.CENTER",
-        "NP.INNER_BOTTOM_RIGHT"
+        "CENTER",
+        "INNER_BOTTOM_RIGHT"
       ],
       [
-        "NP.INNER_BOTTOM_RIGHT",
-        "NP.BOTTOM_RIGHT"
+        "INNER_BOTTOM_RIGHT",
+        "BOTTOM_RIGHT"
       ],
       [
-        "NP.BOTTOM_RIGHT",
-        "NP.TOP_RIGHT"
+        "BOTTOM_RIGHT",
+        "TOP_RIGHT"
       ],
       [
-        "NP.TOP_RIGHT",
-        "NP.INNER_TOP_RIGHT"
+        "TOP_RIGHT",
+        "INNER_TOP_RIGHT"
       ]
     ]
   },
@@ -578,20 +578,20 @@
     ],
     "edges": [
       [
-        "NP.TOP_LEFT",
-        "NP.INNER_BOTTOM_LEFT"
+        "TOP_LEFT",
+        "INNER_BOTTOM_LEFT"
       ],
       [
-        "NP.INNER_BOTTOM_LEFT",
-        "NP.BOTTOM_CENTER"
+        "INNER_BOTTOM_LEFT",
+        "BOTTOM_CENTER"
       ],
       [
-        "NP.BOTTOM_CENTER",
-        "NP.INNER_BOTTOM_RIGHT"
+        "BOTTOM_CENTER",
+        "INNER_BOTTOM_RIGHT"
       ],
       [
-        "NP.INNER_BOTTOM_RIGHT",
-        "NP.TOP_RIGHT"
+        "INNER_BOTTOM_RIGHT",
+        "TOP_RIGHT"
       ]
     ]
   },
@@ -601,12 +601,12 @@
     ],
     "edges": [
       [
-        "NP.BOTTOM_CENTER",
-        "NP.BOTTOM_RIGHT"
+        "BOTTOM_CENTER",
+        "BOTTOM_RIGHT"
       ],
       [
-        "NP.BOTTOM_RIGHT",
-        "NP.TOP_RIGHT"
+        "BOTTOM_RIGHT",
+        "TOP_RIGHT"
       ]
     ]
   },
@@ -616,24 +616,24 @@
     ],
     "edges": [
       [
-        "NP.INNER_TOP_LEFT",
-        "NP.CENTER"
+        "INNER_TOP_LEFT",
+        "CENTER"
       ],
       [
-        "NP.CENTER",
-        "NP.INNER_TOP_RIGHT"
+        "CENTER",
+        "INNER_TOP_RIGHT"
       ],
       [
-        "NP.INNER_TOP_RIGHT",
-        "NP.INNER_BOTTOM_RIGHT"
+        "INNER_TOP_RIGHT",
+        "INNER_BOTTOM_RIGHT"
       ],
       [
-        "NP.INNER_BOTTOM_RIGHT",
-        "NP.INNER_BOTTOM_LEFT"
+        "INNER_BOTTOM_RIGHT",
+        "INNER_BOTTOM_LEFT"
       ],
       [
-        "NP.INNER_BOTTOM_LEFT",
-        "NP.BOTTOM_CENTER"
+        "INNER_BOTTOM_LEFT",
+        "BOTTOM_CENTER"
       ]
     ]
   },
@@ -643,20 +643,20 @@
     ],
     "edges": [
       [
-        "NP.TOP_LEFT",
-        "NP.INNER_TOP_LEFT"
+        "TOP_LEFT",
+        "INNER_TOP_LEFT"
       ],
       [
-        "NP.INNER_TOP_LEFT",
-        "NP.CENTER"
+        "INNER_TOP_LEFT",
+        "CENTER"
       ],
       [
-        "NP.CENTER",
-        "NP.INNER_BOTTOM_RIGHT"
+        "CENTER",
+        "INNER_BOTTOM_RIGHT"
       ],
       [
-        "NP.INNER_BOTTOM_RIGHT",
-        "NP.BOTTOM_RIGHT"
+        "INNER_BOTTOM_RIGHT",
+        "BOTTOM_RIGHT"
       ]
     ]
   },
@@ -666,16 +666,16 @@
     ],
     "edges": [
       [
-        "NP.INNER_TOP_LEFT",
-        "NP.CENTER"
+        "INNER_TOP_LEFT",
+        "CENTER"
       ],
       [
-        "NP.CENTER",
-        "NP.INNER_BOTTOM_LEFT"
+        "CENTER",
+        "INNER_BOTTOM_LEFT"
       ],
       [
-        "NP.INNER_BOTTOM_LEFT",
-        "NP.BOTTOM_LEFT"
+        "INNER_BOTTOM_LEFT",
+        "BOTTOM_LEFT"
       ]
     ]
   },
@@ -685,20 +685,20 @@
     ],
     "edges": [
       [
-        "NP.BOTTOM_LEFT",
-        "NP.INNER_BOTTOM_LEFT"
+        "BOTTOM_LEFT",
+        "INNER_BOTTOM_LEFT"
       ],
       [
-        "NP.INNER_BOTTOM_LEFT",
-        "NP.CENTER"
+        "INNER_BOTTOM_LEFT",
+        "CENTER"
       ],
       [
-        "NP.CENTER",
-        "NP.INNER_BOTTOM_RIGHT"
+        "CENTER",
+        "INNER_BOTTOM_RIGHT"
       ],
       [
-        "NP.INNER_BOTTOM_RIGHT",
-        "NP.BOTTOM_RIGHT"
+        "INNER_BOTTOM_RIGHT",
+        "BOTTOM_RIGHT"
       ]
     ]
   },
@@ -708,20 +708,20 @@
     ],
     "edges": [
       [
-        "NP.INNER_BOTTOM_LEFT",
-        "NP.CENTER"
+        "INNER_BOTTOM_LEFT",
+        "CENTER"
       ],
       [
-        "NP.CENTER",
-        "NP.INNER_BOTTOM_RIGHT"
+        "CENTER",
+        "INNER_BOTTOM_RIGHT"
       ],
       [
-        "NP.INNER_BOTTOM_RIGHT",
-        "NP.INNER_TOP_RIGHT"
+        "INNER_BOTTOM_RIGHT",
+        "INNER_TOP_RIGHT"
       ],
       [
-        "NP.INNER_TOP_RIGHT",
-        "NP.TOP_RIGHT"
+        "INNER_TOP_RIGHT",
+        "TOP_RIGHT"
       ]
     ]
   },
@@ -731,16 +731,16 @@
     ],
     "edges": [
       [
-        "NP.BOTTOM_LEFT",
-        "NP.BOTTOM_CENTER"
+        "BOTTOM_LEFT",
+        "BOTTOM_CENTER"
       ],
       [
-        "NP.BOTTOM_CENTER",
-        "NP.BOTTOM_RIGHT"
+        "BOTTOM_CENTER",
+        "BOTTOM_RIGHT"
       ],
       [
-        "NP.BOTTOM_RIGHT",
-        "NP.TOP_RIGHT"
+        "BOTTOM_RIGHT",
+        "TOP_RIGHT"
       ]
     ]
   },
@@ -750,12 +750,12 @@
     ],
     "edges": [
       [
-        "NP.TOP_CENTER",
-        "NP.TOP_LEFT"
+        "TOP_CENTER",
+        "TOP_LEFT"
       ],
       [
-        "NP.TOP_LEFT",
-        "NP.BOTTOM_LEFT"
+        "TOP_LEFT",
+        "BOTTOM_LEFT"
       ]
     ]
   },
@@ -765,16 +765,16 @@
     ],
     "edges": [
       [
-        "NP.INNER_TOP_RIGHT",
-        "NP.CENTER"
+        "INNER_TOP_RIGHT",
+        "CENTER"
       ],
       [
-        "NP.CENTER",
-        "NP.INNER_BOTTOM_LEFT"
+        "CENTER",
+        "INNER_BOTTOM_LEFT"
       ],
       [
-        "NP.INNER_BOTTOM_LEFT",
-        "NP.BOTTOM_CENTER"
+        "INNER_BOTTOM_LEFT",
+        "BOTTOM_CENTER"
       ]
     ]
   },
@@ -784,24 +784,24 @@
     ],
     "edges": [
       [
-        "NP.TOP_RIGHT",
-        "NP.TOP_CENTER"
+        "TOP_RIGHT",
+        "TOP_CENTER"
       ],
       [
-        "NP.TOP_CENTER",
-        "NP.CENTER"
+        "TOP_CENTER",
+        "CENTER"
       ],
       [
-        "NP.CENTER",
-        "NP.BOTTOM_CENTER"
+        "CENTER",
+        "BOTTOM_CENTER"
       ],
       [
-        "NP.BOTTOM_CENTER",
-        "NP.INNER_BOTTOM_RIGHT"
+        "BOTTOM_CENTER",
+        "INNER_BOTTOM_RIGHT"
       ],
       [
-        "NP.INNER_BOTTOM_RIGHT",
-        "NP.TOP_RIGHT"
+        "INNER_BOTTOM_RIGHT",
+        "TOP_RIGHT"
       ]
     ]
   },
@@ -811,32 +811,32 @@
     ],
     "edges": [
       [
-        "NP.INNER_TOP_LEFT",
-        "NP.INNER_TOP_RIGHT"
+        "INNER_TOP_LEFT",
+        "INNER_TOP_RIGHT"
       ],
       [
-        "NP.INNER_TOP_RIGHT",
-        "NP.CENTER"
+        "INNER_TOP_RIGHT",
+        "CENTER"
       ],
       [
-        "NP.CENTER",
-        "NP.INNER_TOP_LEFT"
+        "CENTER",
+        "INNER_TOP_LEFT"
       ],
       [
-        "NP.INNER_TOP_LEFT",
-        "NP.TOP_CENTER"
+        "INNER_TOP_LEFT",
+        "TOP_CENTER"
       ],
       [
-        "NP.TOP_CENTER",
-        "NP.TOP_RIGHT"
+        "TOP_CENTER",
+        "TOP_RIGHT"
       ],
       [
-        "NP.TOP_RIGHT",
-        "NP.BOTTOM_RIGHT"
+        "TOP_RIGHT",
+        "BOTTOM_RIGHT"
       ],
       [
-        "NP.BOTTOM_RIGHT",
-        "NP.BOTTOM_CENTER"
+        "BOTTOM_RIGHT",
+        "BOTTOM_CENTER"
       ]
     ]
   },
@@ -846,16 +846,16 @@
     ],
     "edges": [
       [
-        "NP.INNER_BOTTOM_LEFT",
-        "NP.INNER_TOP_LEFT"
+        "INNER_BOTTOM_LEFT",
+        "INNER_TOP_LEFT"
       ],
       [
-        "NP.INNER_TOP_LEFT",
-        "NP.INNER_TOP_RIGHT"
+        "INNER_TOP_LEFT",
+        "INNER_TOP_RIGHT"
       ],
       [
-        "NP.INNER_TOP_RIGHT",
-        "NP.INNER_BOTTOM_RIGHT"
+        "INNER_TOP_RIGHT",
+        "INNER_BOTTOM_RIGHT"
       ]
     ]
   },
@@ -865,20 +865,20 @@
     ],
     "edges": [
       [
-        "NP.INNER_BOTTOM_LEFT",
-        "NP.INNER_TOP_LEFT"
+        "INNER_BOTTOM_LEFT",
+        "INNER_TOP_LEFT"
       ],
       [
-        "NP.INNER_TOP_LEFT",
-        "NP.INNER_TOP_RIGHT"
+        "INNER_TOP_LEFT",
+        "INNER_TOP_RIGHT"
       ],
       [
-        "NP.INNER_TOP_RIGHT",
-        "NP.TOP_RIGHT"
+        "INNER_TOP_RIGHT",
+        "TOP_RIGHT"
       ],
       [
-        "NP.TOP_RIGHT",
-        "NP.TOP_CENTER"
+        "TOP_RIGHT",
+        "TOP_CENTER"
       ]
     ]
   },
@@ -888,16 +888,16 @@
     ],
     "edges": [
       [
-        "NP.INNER_BOTTOM_LEFT",
-        "NP.INNER_TOP_LEFT"
+        "INNER_BOTTOM_LEFT",
+        "INNER_TOP_LEFT"
       ],
       [
-        "NP.INNER_TOP_LEFT",
-        "NP.CENTER"
+        "INNER_TOP_LEFT",
+        "CENTER"
       ],
       [
-        "NP.CENTER",
-        "NP.TOP_CENTER"
+        "CENTER",
+        "TOP_CENTER"
       ]
     ]
   },
@@ -907,16 +907,16 @@
     ],
     "edges": [
       [
-        "NP.INNER_TOP_LEFT",
-        "NP.INNER_TOP_RIGHT"
+        "INNER_TOP_LEFT",
+        "INNER_TOP_RIGHT"
       ],
       [
-        "NP.INNER_TOP_RIGHT",
-        "NP.INNER_BOTTOM_RIGHT"
+        "INNER_TOP_RIGHT",
+        "INNER_BOTTOM_RIGHT"
       ],
       [
-        "NP.INNER_BOTTOM_RIGHT",
-        "NP.TOP_RIGHT"
+        "INNER_BOTTOM_RIGHT",
+        "TOP_RIGHT"
       ]
     ]
   },
@@ -926,16 +926,16 @@
     ],
     "edges": [
       [
-        "NP.TOP_CENTER",
-        "NP.INNER_TOP_RIGHT"
+        "TOP_CENTER",
+        "INNER_TOP_RIGHT"
       ],
       [
-        "NP.INNER_TOP_RIGHT",
-        "NP.TOP_RIGHT"
+        "INNER_TOP_RIGHT",
+        "TOP_RIGHT"
       ],
       [
-        "NP.TOP_RIGHT",
-        "NP.BOTTOM_RIGHT"
+        "TOP_RIGHT",
+        "BOTTOM_RIGHT"
       ]
     ]
   },
@@ -945,8 +945,8 @@
     ],
     "edges": [
       [
-        "NP.INNER_BOTTOM_LEFT",
-        "NP.BOTTOM_LEFT"
+        "INNER_BOTTOM_LEFT",
+        "BOTTOM_LEFT"
       ]
     ]
   },
@@ -956,16 +956,16 @@
     ],
     "edges": [
       [
-        "NP.TOP_RIGHT",
-        "NP.INNER_TOP_RIGHT"
+        "TOP_RIGHT",
+        "INNER_TOP_RIGHT"
       ],
       [
-        "NP.INNER_TOP_RIGHT",
-        "NP.INNER_BOTTOM_RIGHT"
+        "INNER_TOP_RIGHT",
+        "INNER_BOTTOM_RIGHT"
       ],
       [
-        "NP.INNER_BOTTOM_RIGHT",
-        "NP.BOTTOM_RIGHT"
+        "INNER_BOTTOM_RIGHT",
+        "BOTTOM_RIGHT"
       ]
     ]
   },
@@ -975,8 +975,8 @@
     ],
     "edges": [
       [
-        "NP.INNER_BOTTOM_LEFT",
-        "NP.TOP_LEFT"
+        "INNER_BOTTOM_LEFT",
+        "TOP_LEFT"
       ]
     ]
   },
@@ -986,24 +986,24 @@
     ],
     "edges": [
       [
-        "NP.TOP_LEFT",
-        "NP.INNER_TOP_LEFT"
+        "TOP_LEFT",
+        "INNER_TOP_LEFT"
       ],
       [
-        "NP.INNER_TOP_LEFT",
-        "NP.INNER_BOTTOM_LEFT"
+        "INNER_TOP_LEFT",
+        "INNER_BOTTOM_LEFT"
       ],
       [
-        "NP.INNER_BOTTOM_LEFT",
-        "NP.INNER_BOTTOM_RIGHT"
+        "INNER_BOTTOM_LEFT",
+        "INNER_BOTTOM_RIGHT"
       ],
       [
-        "NP.INNER_BOTTOM_RIGHT",
-        "NP.INNER_TOP_RIGHT"
+        "INNER_BOTTOM_RIGHT",
+        "INNER_TOP_RIGHT"
       ],
       [
-        "NP.INNER_TOP_RIGHT",
-        "NP.TOP_RIGHT"
+        "INNER_TOP_RIGHT",
+        "TOP_RIGHT"
       ]
     ]
   },
@@ -1013,12 +1013,12 @@
     ],
     "edges": [
       [
-        "NP.BOTTOM_LEFT",
-        "NP.INNER_TOP_LEFT"
+        "BOTTOM_LEFT",
+        "INNER_TOP_LEFT"
       ],
       [
-        "NP.INNER_TOP_LEFT",
-        "NP.INNER_BOTTOM_LEFT"
+        "INNER_TOP_LEFT",
+        "INNER_BOTTOM_LEFT"
       ]
     ]
   },
@@ -1028,28 +1028,28 @@
     ],
     "edges": [
       [
-        "NP.BOTTOM_RIGHT",
-        "NP.INNER_BOTTOM_RIGHT"
+        "BOTTOM_RIGHT",
+        "INNER_BOTTOM_RIGHT"
       ],
       [
-        "NP.INNER_BOTTOM_RIGHT",
-        "NP.CENTER"
+        "INNER_BOTTOM_RIGHT",
+        "CENTER"
       ],
       [
-        "NP.CENTER",
-        "NP.INNER_TOP_LEFT"
+        "CENTER",
+        "INNER_TOP_LEFT"
       ],
       [
-        "NP.INNER_TOP_LEFT",
-        "NP.TOP_CENTER"
+        "INNER_TOP_LEFT",
+        "TOP_CENTER"
       ],
       [
-        "NP.TOP_CENTER",
-        "NP.INNER_TOP_RIGHT"
+        "TOP_CENTER",
+        "INNER_TOP_RIGHT"
       ],
       [
-        "NP.INNER_TOP_RIGHT",
-        "NP.CENTER"
+        "INNER_TOP_RIGHT",
+        "CENTER"
       ]
     ]
   },
@@ -1060,36 +1060,36 @@
     ],
     "edges": [
       [
-        "NP.CENTER",
-        "NP.INNER_TOP_LEFT"
+        "CENTER",
+        "INNER_TOP_LEFT"
       ],
       [
-        "NP.INNER_TOP_LEFT",
-        "NP.TOP_CENTER"
+        "INNER_TOP_LEFT",
+        "TOP_CENTER"
       ],
       [
-        "NP.TOP_CENTER",
-        "NP.INNER_TOP_RIGHT"
+        "TOP_CENTER",
+        "INNER_TOP_RIGHT"
       ],
       [
-        "NP.INNER_TOP_RIGHT",
-        "NP.CENTER"
+        "INNER_TOP_RIGHT",
+        "CENTER"
       ],
       [
-        "NP.CENTER",
-        "NP.INNER_BOTTOM_LEFT"
+        "CENTER",
+        "INNER_BOTTOM_LEFT"
       ],
       [
-        "NP.INNER_BOTTOM_LEFT",
-        "NP.BOTTOM_CENTER"
+        "INNER_BOTTOM_LEFT",
+        "BOTTOM_CENTER"
       ],
       [
-        "NP.BOTTOM_CENTER",
-        "NP.INNER_BOTTOM_RIGHT"
+        "BOTTOM_CENTER",
+        "INNER_BOTTOM_RIGHT"
       ],
       [
-        "NP.INNER_BOTTOM_RIGHT",
-        "NP.CENTER"
+        "INNER_BOTTOM_RIGHT",
+        "CENTER"
       ]
     ]
   },
@@ -1099,16 +1099,16 @@
     ],
     "edges": [
       [
-        "NP.INNER_BOTTOM_RIGHT",
-        "NP.CENTER"
+        "INNER_BOTTOM_RIGHT",
+        "CENTER"
       ],
       [
-        "NP.CENTER",
-        "NP.INNER_BOTTOM_LEFT"
+        "CENTER",
+        "INNER_BOTTOM_LEFT"
       ],
       [
-        "NP.INNER_BOTTOM_LEFT",
-        "NP.BOTTOM_CENTER"
+        "INNER_BOTTOM_LEFT",
+        "BOTTOM_CENTER"
       ]
     ]
   },
@@ -1118,20 +1118,20 @@
     ],
     "edges": [
       [
-        "NP.TOP_LEFT",
-        "NP.INNER_TOP_LEFT"
+        "TOP_LEFT",
+        "INNER_TOP_LEFT"
       ],
       [
-        "NP.INNER_TOP_LEFT",
-        "NP.CENTER"
+        "INNER_TOP_LEFT",
+        "CENTER"
       ],
       [
-        "NP.CENTER",
-        "NP.INNER_BOTTOM_LEFT"
+        "CENTER",
+        "INNER_BOTTOM_LEFT"
       ],
       [
-        "NP.INNER_BOTTOM_LEFT",
-        "NP.INNER_BOTTOM_RIGHT"
+        "INNER_BOTTOM_LEFT",
+        "INNER_BOTTOM_RIGHT"
       ]
     ]
   },
@@ -1141,20 +1141,20 @@
     ],
     "edges": [
       [
-        "NP.INNER_TOP_LEFT",
-        "NP.INNER_TOP_RIGHT"
+        "INNER_TOP_LEFT",
+        "INNER_TOP_RIGHT"
       ],
       [
-        "NP.INNER_TOP_RIGHT",
-        "NP.TOP_RIGHT"
+        "INNER_TOP_RIGHT",
+        "TOP_RIGHT"
       ],
       [
-        "NP.TOP_RIGHT",
-        "NP.INNER_BOTTOM_RIGHT"
+        "TOP_RIGHT",
+        "INNER_BOTTOM_RIGHT"
       ],
       [
-        "NP.INNER_BOTTOM_RIGHT",
-        "NP.INNER_BOTTOM_LEFT"
+        "INNER_BOTTOM_RIGHT",
+        "INNER_BOTTOM_LEFT"
       ]
     ]
   },
@@ -1164,8 +1164,8 @@
     ],
     "edges": [
       [
-        "NP.INNER_BOTTOM_RIGHT",
-        "NP.BOTTOM_RIGHT"
+        "INNER_BOTTOM_RIGHT",
+        "BOTTOM_RIGHT"
       ]
     ]
   },
@@ -1175,24 +1175,24 @@
     ],
     "edges": [
       [
-        "NP.CENTER",
-        "NP.INNER_TOP_LEFT"
+        "CENTER",
+        "INNER_TOP_LEFT"
       ],
       [
-        "NP.INNER_TOP_LEFT",
-        "NP.INNER_BOTTOM_LEFT"
+        "INNER_TOP_LEFT",
+        "INNER_BOTTOM_LEFT"
       ],
       [
-        "NP.INNER_BOTTOM_LEFT",
-        "NP.CENTER"
+        "INNER_BOTTOM_LEFT",
+        "CENTER"
       ],
       [
-        "NP.CENTER",
-        "NP.INNER_TOP_RIGHT"
+        "CENTER",
+        "INNER_TOP_RIGHT"
       ],
       [
-        "NP.INNER_TOP_RIGHT",
-        "NP.INNER_BOTTOM_LEFT"
+        "INNER_TOP_RIGHT",
+        "INNER_BOTTOM_LEFT"
       ]
     ]
   },
@@ -1202,16 +1202,16 @@
     ],
     "edges": [
       [
-        "NP.INNER_BOTTOM_RIGHT",
-        "NP.CENTER"
+        "INNER_BOTTOM_RIGHT",
+        "CENTER"
       ],
       [
-        "NP.CENTER",
-        "NP.INNER_TOP_RIGHT"
+        "CENTER",
+        "INNER_TOP_RIGHT"
       ],
       [
-        "NP.INNER_TOP_RIGHT",
-        "NP.TOP_RIGHT"
+        "INNER_TOP_RIGHT",
+        "TOP_RIGHT"
       ]
     ]
   },
@@ -1221,20 +1221,20 @@
     ],
     "edges": [
       [
-        "NP.BOTTOM_CENTER",
-        "NP.CENTER"
+        "BOTTOM_CENTER",
+        "CENTER"
       ],
       [
-        "NP.CENTER",
-        "NP.INNER_TOP_LEFT"
+        "CENTER",
+        "INNER_TOP_LEFT"
       ],
       [
-        "NP.INNER_TOP_LEFT",
-        "NP.INNER_BOTTOM_LEFT"
+        "INNER_TOP_LEFT",
+        "INNER_BOTTOM_LEFT"
       ],
       [
-        "NP.INNER_BOTTOM_LEFT",
-        "NP.CENTER"
+        "INNER_BOTTOM_LEFT",
+        "CENTER"
       ]
     ]
   },
@@ -1244,24 +1244,24 @@
     ],
     "edges": [
       [
-        "NP.BOTTOM_LEFT",
-        "NP.INNER_BOTTOM_LEFT"
+        "BOTTOM_LEFT",
+        "INNER_BOTTOM_LEFT"
       ],
       [
-        "NP.INNER_BOTTOM_LEFT",
-        "NP.INNER_TOP_LEFT"
+        "INNER_BOTTOM_LEFT",
+        "INNER_TOP_LEFT"
       ],
       [
-        "NP.INNER_TOP_LEFT",
-        "NP.CENTER"
+        "INNER_TOP_LEFT",
+        "CENTER"
       ],
       [
-        "NP.CENTER",
-        "NP.INNER_TOP_RIGHT"
+        "CENTER",
+        "INNER_TOP_RIGHT"
       ],
       [
-        "NP.INNER_TOP_RIGHT",
-        "NP.TOP_RIGHT"
+        "INNER_TOP_RIGHT",
+        "TOP_RIGHT"
       ]
     ]
   },
@@ -1271,28 +1271,28 @@
     ],
     "edges": [
       [
-        "NP.BOTTOM_CENTER",
-        "NP.BOTTOM_LEFT"
+        "BOTTOM_CENTER",
+        "BOTTOM_LEFT"
       ],
       [
-        "NP.BOTTOM_LEFT",
-        "NP.TOP_LEFT"
+        "BOTTOM_LEFT",
+        "TOP_LEFT"
       ],
       [
-        "NP.TOP_LEFT",
-        "NP.INNER_TOP_LEFT"
+        "TOP_LEFT",
+        "INNER_TOP_LEFT"
       ],
       [
-        "NP.INNER_TOP_LEFT",
-        "NP.CENTER"
+        "INNER_TOP_LEFT",
+        "CENTER"
       ],
       [
-        "NP.CENTER",
-        "NP.INNER_TOP_RIGHT"
+        "CENTER",
+        "INNER_TOP_RIGHT"
       ],
       [
-        "NP.INNER_TOP_RIGHT",
-        "NP.TOP_RIGHT"
+        "INNER_TOP_RIGHT",
+        "TOP_RIGHT"
       ]
     ]
   },
@@ -1302,20 +1302,20 @@
     ],
     "edges": [
       [
-        "NP.BOTTOM_CENTER",
-        "NP.INNER_BOTTOM_LEFT"
+        "BOTTOM_CENTER",
+        "INNER_BOTTOM_LEFT"
       ],
       [
-        "NP.INNER_BOTTOM_LEFT",
-        "NP.BOTTOM_LEFT"
+        "INNER_BOTTOM_LEFT",
+        "BOTTOM_LEFT"
       ],
       [
-        "NP.BOTTOM_LEFT",
-        "NP.TOP_LEFT"
+        "BOTTOM_LEFT",
+        "TOP_LEFT"
       ],
       [
-        "NP.TOP_LEFT",
-        "NP.TOP_CENTER"
+        "TOP_LEFT",
+        "TOP_CENTER"
       ]
     ]
   },
@@ -1325,12 +1325,12 @@
     ],
     "edges": [
       [
-        "NP.INNER_TOP_LEFT",
-        "NP.CENTER"
+        "INNER_TOP_LEFT",
+        "CENTER"
       ],
       [
-        "NP.CENTER",
-        "NP.INNER_TOP_RIGHT"
+        "CENTER",
+        "INNER_TOP_RIGHT"
       ]
     ]
   },
@@ -1340,24 +1340,24 @@
     ],
     "edges": [
       [
-        "NP.BOTTOM_LEFT",
-        "NP.INNER_TOP_LEFT"
+        "BOTTOM_LEFT",
+        "INNER_TOP_LEFT"
       ],
       [
-        "NP.INNER_TOP_LEFT",
-        "NP.CENTER"
+        "INNER_TOP_LEFT",
+        "CENTER"
       ],
       [
-        "NP.CENTER",
-        "NP.INNER_TOP_RIGHT"
+        "CENTER",
+        "INNER_TOP_RIGHT"
       ],
       [
-        "NP.INNER_TOP_RIGHT",
-        "NP.TOP_RIGHT"
+        "INNER_TOP_RIGHT",
+        "TOP_RIGHT"
       ],
       [
-        "NP.TOP_RIGHT",
-        "NP.TOP_CENTER"
+        "TOP_RIGHT",
+        "TOP_CENTER"
       ]
     ]
   },
@@ -1367,24 +1367,24 @@
     ],
     "edges": [
       [
-        "NP.CENTER",
-        "NP.INNER_TOP_RIGHT"
+        "CENTER",
+        "INNER_TOP_RIGHT"
       ],
       [
-        "NP.INNER_TOP_RIGHT",
-        "NP.INNER_BOTTOM_RIGHT"
+        "INNER_TOP_RIGHT",
+        "INNER_BOTTOM_RIGHT"
       ],
       [
-        "NP.INNER_BOTTOM_RIGHT",
-        "NP.CENTER"
+        "INNER_BOTTOM_RIGHT",
+        "CENTER"
       ],
       [
-        "NP.CENTER",
-        "NP.INNER_TOP_LEFT"
+        "CENTER",
+        "INNER_TOP_LEFT"
       ],
       [
-        "NP.INNER_TOP_LEFT",
-        "NP.INNER_BOTTOM_LEFT"
+        "INNER_TOP_LEFT",
+        "INNER_BOTTOM_LEFT"
       ]
     ]
   },
@@ -1394,8 +1394,8 @@
     ],
     "edges": [
       [
-        "NP.INNER_BOTTOM_RIGHT",
-        "NP.TOP_RIGHT"
+        "INNER_BOTTOM_RIGHT",
+        "TOP_RIGHT"
       ]
     ]
   },
@@ -1405,20 +1405,20 @@
     ],
     "edges": [
       [
-        "NP.BOTTOM_LEFT",
-        "NP.INNER_TOP_LEFT"
+        "BOTTOM_LEFT",
+        "INNER_TOP_LEFT"
       ],
       [
-        "NP.INNER_TOP_LEFT",
-        "NP.CENTER"
+        "INNER_TOP_LEFT",
+        "CENTER"
       ],
       [
-        "NP.CENTER",
-        "NP.INNER_BOTTOM_RIGHT"
+        "CENTER",
+        "INNER_BOTTOM_RIGHT"
       ],
       [
-        "NP.INNER_BOTTOM_RIGHT",
-        "NP.TOP_RIGHT"
+        "INNER_BOTTOM_RIGHT",
+        "TOP_RIGHT"
       ]
     ]
   },
@@ -1428,20 +1428,20 @@
     ],
     "edges": [
       [
-        "NP.CENTER",
-        "NP.INNER_TOP_LEFT"
+        "CENTER",
+        "INNER_TOP_LEFT"
       ],
       [
-        "NP.INNER_TOP_LEFT",
-        "NP.INNER_BOTTOM_LEFT"
+        "INNER_TOP_LEFT",
+        "INNER_BOTTOM_LEFT"
       ],
       [
-        "NP.INNER_BOTTOM_LEFT",
-        "NP.BOTTOM_CENTER"
+        "INNER_BOTTOM_LEFT",
+        "BOTTOM_CENTER"
       ],
       [
-        "NP.BOTTOM_CENTER",
-        "NP.CENTER"
+        "BOTTOM_CENTER",
+        "CENTER"
       ]
     ]
   },
@@ -1451,12 +1451,12 @@
     ],
     "edges": [
       [
-        "NP.INNER_BOTTOM_LEFT",
-        "NP.CENTER"
+        "INNER_BOTTOM_LEFT",
+        "CENTER"
       ],
       [
-        "NP.CENTER",
-        "NP.INNER_BOTTOM_RIGHT"
+        "CENTER",
+        "INNER_BOTTOM_RIGHT"
       ]
     ]
   },
@@ -1466,24 +1466,24 @@
     ],
     "edges": [
       [
-        "NP.BOTTOM_LEFT",
-        "NP.INNER_BOTTOM_LEFT"
+        "BOTTOM_LEFT",
+        "INNER_BOTTOM_LEFT"
       ],
       [
-        "NP.INNER_BOTTOM_LEFT",
-        "NP.INNER_TOP_LEFT"
+        "INNER_BOTTOM_LEFT",
+        "INNER_TOP_LEFT"
       ],
       [
-        "NP.INNER_TOP_LEFT",
-        "NP.INNER_TOP_RIGHT"
+        "INNER_TOP_LEFT",
+        "INNER_TOP_RIGHT"
       ],
       [
-        "NP.INNER_TOP_RIGHT",
-        "NP.INNER_BOTTOM_RIGHT"
+        "INNER_TOP_RIGHT",
+        "INNER_BOTTOM_RIGHT"
       ],
       [
-        "NP.INNER_BOTTOM_RIGHT",
-        "NP.BOTTOM_RIGHT"
+        "INNER_BOTTOM_RIGHT",
+        "BOTTOM_RIGHT"
       ]
     ]
   },
@@ -1493,12 +1493,12 @@
     ],
     "edges": [
       [
-        "NP.INNER_TOP_RIGHT",
-        "NP.INNER_BOTTOM_RIGHT"
+        "INNER_TOP_RIGHT",
+        "INNER_BOTTOM_RIGHT"
       ],
       [
-        "NP.INNER_BOTTOM_RIGHT",
-        "NP.BOTTOM_RIGHT"
+        "INNER_BOTTOM_RIGHT",
+        "BOTTOM_RIGHT"
       ]
     ]
   },
@@ -1509,12 +1509,12 @@
     ],
     "edges": [
       [
-        "NP.INNER_TOP_LEFT",
-        "NP.INNER_TOP_RIGHT"
+        "INNER_TOP_LEFT",
+        "INNER_TOP_RIGHT"
       ],
       [
-        "NP.INNER_TOP_RIGHT",
-        "NP.INNER_BOTTOM_RIGHT"
+        "INNER_TOP_RIGHT",
+        "INNER_BOTTOM_RIGHT"
       ]
     ]
   },
@@ -1524,16 +1524,16 @@
     ],
     "edges": [
       [
-        "NP.INNER_BOTTOM_LEFT",
-        "NP.CENTER"
+        "INNER_BOTTOM_LEFT",
+        "CENTER"
       ],
       [
-        "NP.CENTER",
-        "NP.BOTTOM_CENTER"
+        "CENTER",
+        "BOTTOM_CENTER"
       ],
       [
-        "NP.BOTTOM_CENTER",
-        "NP.INNER_BOTTOM_LEFT"
+        "BOTTOM_CENTER",
+        "INNER_BOTTOM_LEFT"
       ]
     ]
   },
@@ -1543,12 +1543,12 @@
     ],
     "edges": [
       [
-        "NP.TOP_LEFT",
-        "NP.INNER_TOP_LEFT"
+        "TOP_LEFT",
+        "INNER_TOP_LEFT"
       ],
       [
-        "NP.INNER_TOP_LEFT",
-        "NP.INNER_BOTTOM_LEFT"
+        "INNER_TOP_LEFT",
+        "INNER_BOTTOM_LEFT"
       ]
     ]
   },
@@ -1559,16 +1559,16 @@
     ],
     "edges": [
       [
-        "NP.INNER_BOTTOM_LEFT",
-        "NP.INNER_BOTTOM_RIGHT"
+        "INNER_BOTTOM_LEFT",
+        "INNER_BOTTOM_RIGHT"
       ],
       [
-        "NP.INNER_BOTTOM_RIGHT",
-        "NP.BOTTOM_CENTER"
+        "INNER_BOTTOM_RIGHT",
+        "BOTTOM_CENTER"
       ],
       [
-        "NP.BOTTOM_CENTER",
-        "NP.INNER_BOTTOM_LEFT"
+        "BOTTOM_CENTER",
+        "INNER_BOTTOM_LEFT"
       ]
     ]
   },
@@ -1578,40 +1578,40 @@
     ],
     "edges": [
       [
-        "NP.BOTTOM_CENTER",
-        "NP.INNER_BOTTOM_LEFT"
+        "BOTTOM_CENTER",
+        "INNER_BOTTOM_LEFT"
       ],
       [
-        "NP.INNER_BOTTOM_LEFT",
-        "NP.INNER_BOTTOM_RIGHT"
+        "INNER_BOTTOM_LEFT",
+        "INNER_BOTTOM_RIGHT"
       ],
       [
-        "NP.INNER_BOTTOM_RIGHT",
-        "NP.BOTTOM_CENTER"
+        "INNER_BOTTOM_RIGHT",
+        "BOTTOM_CENTER"
       ],
       [
-        "NP.BOTTOM_CENTER",
-        "NP.BOTTOM_LEFT"
+        "BOTTOM_CENTER",
+        "BOTTOM_LEFT"
       ],
       [
-        "NP.BOTTOM_LEFT",
-        "NP.TOP_LEFT"
+        "BOTTOM_LEFT",
+        "TOP_LEFT"
       ],
       [
-        "NP.TOP_LEFT",
-        "NP.TOP_CENTER"
+        "TOP_LEFT",
+        "TOP_CENTER"
       ],
       [
-        "NP.TOP_CENTER",
-        "NP.TOP_RIGHT"
+        "TOP_CENTER",
+        "TOP_RIGHT"
       ],
       [
-        "NP.TOP_RIGHT",
-        "NP.BOTTOM_RIGHT"
+        "TOP_RIGHT",
+        "BOTTOM_RIGHT"
       ],
       [
-        "NP.BOTTOM_RIGHT",
-        "NP.BOTTOM_CENTER"
+        "BOTTOM_RIGHT",
+        "BOTTOM_CENTER"
       ]
     ]
   },
@@ -1621,36 +1621,36 @@
     ],
     "edges": [
       [
-        "NP.TOP_LEFT",
-        "NP.BOTTOM_LEFT"
+        "TOP_LEFT",
+        "BOTTOM_LEFT"
       ],
       [
-        "NP.BOTTOM_LEFT",
-        "NP.INNER_BOTTOM_LEFT"
+        "BOTTOM_LEFT",
+        "INNER_BOTTOM_LEFT"
       ],
       [
-        "NP.INNER_BOTTOM_LEFT",
-        "NP.INNER_BOTTOM_RIGHT"
+        "INNER_BOTTOM_LEFT",
+        "INNER_BOTTOM_RIGHT"
       ],
       [
-        "NP.INNER_BOTTOM_RIGHT",
-        "NP.BOTTOM_RIGHT"
+        "INNER_BOTTOM_RIGHT",
+        "BOTTOM_RIGHT"
       ],
       [
-        "NP.BOTTOM_RIGHT",
-        "NP.TOP_RIGHT"
+        "BOTTOM_RIGHT",
+        "TOP_RIGHT"
       ],
       [
-        "NP.TOP_RIGHT",
-        "NP.INNER_TOP_RIGHT"
+        "TOP_RIGHT",
+        "INNER_TOP_RIGHT"
       ],
       [
-        "NP.INNER_TOP_RIGHT",
-        "NP.INNER_TOP_LEFT"
+        "INNER_TOP_RIGHT",
+        "INNER_TOP_LEFT"
       ],
       [
-        "NP.INNER_TOP_LEFT",
-        "NP.TOP_LEFT"
+        "INNER_TOP_LEFT",
+        "TOP_LEFT"
       ]
     ]
   },
@@ -1660,16 +1660,16 @@
     ],
     "edges": [
       [
-        "NP.TOP_LEFT",
-        "NP.INNER_TOP_LEFT"
+        "TOP_LEFT",
+        "INNER_TOP_LEFT"
       ],
       [
-        "NP.INNER_TOP_LEFT",
-        "NP.INNER_BOTTOM_LEFT"
+        "INNER_TOP_LEFT",
+        "INNER_BOTTOM_LEFT"
       ],
       [
-        "NP.INNER_BOTTOM_LEFT",
-        "NP.BOTTOM_LEFT"
+        "INNER_BOTTOM_LEFT",
+        "BOTTOM_LEFT"
       ]
     ]
   },
@@ -1679,16 +1679,16 @@
     ],
     "edges": [
       [
-        "NP.TOP_CENTER",
-        "NP.CENTER"
+        "TOP_CENTER",
+        "CENTER"
       ],
       [
-        "NP.CENTER",
-        "NP.INNER_BOTTOM_LEFT"
+        "CENTER",
+        "INNER_BOTTOM_LEFT"
       ],
       [
-        "NP.INNER_BOTTOM_LEFT",
-        "NP.BOTTOM_LEFT"
+        "INNER_BOTTOM_LEFT",
+        "BOTTOM_LEFT"
       ]
     ]
   },
@@ -1699,32 +1699,32 @@
     ],
     "edges": [
       [
-        "NP.TOP_CENTER",
-        "NP.CENTER"
+        "TOP_CENTER",
+        "CENTER"
       ],
       [
-        "NP.CENTER",
-        "NP.INNER_BOTTOM_LEFT"
+        "CENTER",
+        "INNER_BOTTOM_LEFT"
       ],
       [
-        "NP.INNER_BOTTOM_LEFT",
-        "NP.BOTTOM_LEFT"
+        "INNER_BOTTOM_LEFT",
+        "BOTTOM_LEFT"
       ],
       [
-        "NP.BOTTOM_LEFT",
-        "NP.BOTTOM_CENTER"
+        "BOTTOM_LEFT",
+        "BOTTOM_CENTER"
       ],
       [
-        "NP.BOTTOM_CENTER",
-        "NP.BOTTOM_RIGHT"
+        "BOTTOM_CENTER",
+        "BOTTOM_RIGHT"
       ],
       [
-        "NP.BOTTOM_RIGHT",
-        "NP.INNER_BOTTOM_RIGHT"
+        "BOTTOM_RIGHT",
+        "INNER_BOTTOM_RIGHT"
       ],
       [
-        "NP.INNER_BOTTOM_RIGHT",
-        "NP.CENTER"
+        "INNER_BOTTOM_RIGHT",
+        "CENTER"
       ]
     ]
   },
@@ -1734,20 +1734,20 @@
     ],
     "edges": [
       [
-        "NP.TOP_CENTER",
-        "NP.CENTER"
+        "TOP_CENTER",
+        "CENTER"
       ],
       [
-        "NP.CENTER",
-        "NP.INNER_BOTTOM_RIGHT"
+        "CENTER",
+        "INNER_BOTTOM_RIGHT"
       ],
       [
-        "NP.INNER_BOTTOM_RIGHT",
-        "NP.BOTTOM_RIGHT"
+        "INNER_BOTTOM_RIGHT",
+        "BOTTOM_RIGHT"
       ],
       [
-        "NP.BOTTOM_RIGHT",
-        "NP.TOP_RIGHT"
+        "BOTTOM_RIGHT",
+        "TOP_RIGHT"
       ]
     ]
   },
@@ -1758,16 +1758,16 @@
     ],
     "edges": [
       [
-        "NP.INNER_TOP_LEFT",
-        "NP.INNER_BOTTOM_LEFT"
+        "INNER_TOP_LEFT",
+        "INNER_BOTTOM_LEFT"
       ],
       [
-        "NP.INNER_BOTTOM_LEFT",
-        "NP.INNER_BOTTOM_RIGHT"
+        "INNER_BOTTOM_LEFT",
+        "INNER_BOTTOM_RIGHT"
       ],
       [
-        "NP.INNER_BOTTOM_RIGHT",
-        "NP.INNER_TOP_RIGHT"
+        "INNER_BOTTOM_RIGHT",
+        "INNER_TOP_RIGHT"
       ]
     ]
   },
@@ -1777,20 +1777,20 @@
     ],
     "edges": [
       [
-        "NP.TOP_CENTER",
-        "NP.CENTER"
+        "TOP_CENTER",
+        "CENTER"
       ],
       [
-        "NP.CENTER",
-        "NP.INNER_BOTTOM_RIGHT"
+        "CENTER",
+        "INNER_BOTTOM_RIGHT"
       ],
       [
-        "NP.INNER_BOTTOM_RIGHT",
-        "NP.INNER_TOP_RIGHT"
+        "INNER_BOTTOM_RIGHT",
+        "INNER_TOP_RIGHT"
       ],
       [
-        "NP.INNER_TOP_RIGHT",
-        "NP.CENTER"
+        "INNER_TOP_RIGHT",
+        "CENTER"
       ]
     ]
   },
@@ -1800,16 +1800,16 @@
     ],
     "edges": [
       [
-        "NP.TOP_LEFT",
-        "NP.INNER_TOP_LEFT"
+        "TOP_LEFT",
+        "INNER_TOP_LEFT"
       ],
       [
-        "NP.INNER_TOP_LEFT",
-        "NP.TOP_CENTER"
+        "INNER_TOP_LEFT",
+        "TOP_CENTER"
       ],
       [
-        "NP.TOP_CENTER",
-        "NP.INNER_TOP_RIGHT"
+        "TOP_CENTER",
+        "INNER_TOP_RIGHT"
       ]
     ]
   },
@@ -1819,16 +1819,16 @@
     ],
     "edges": [
       [
-        "NP.INNER_BOTTOM_LEFT",
-        "NP.INNER_TOP_LEFT"
+        "INNER_BOTTOM_LEFT",
+        "INNER_TOP_LEFT"
       ],
       [
-        "NP.INNER_TOP_LEFT",
-        "NP.INNER_TOP_RIGHT"
+        "INNER_TOP_LEFT",
+        "INNER_TOP_RIGHT"
       ],
       [
-        "NP.INNER_TOP_RIGHT",
-        "NP.TOP_CENTER"
+        "INNER_TOP_RIGHT",
+        "TOP_CENTER"
       ]
     ]
   },
@@ -1838,20 +1838,20 @@
     ],
     "edges": [
       [
-        "NP.INNER_TOP_RIGHT",
-        "NP.INNER_TOP_LEFT"
+        "INNER_TOP_RIGHT",
+        "INNER_TOP_LEFT"
       ],
       [
-        "NP.INNER_TOP_LEFT",
-        "NP.CENTER"
+        "INNER_TOP_LEFT",
+        "CENTER"
       ],
       [
-        "NP.CENTER",
-        "NP.INNER_BOTTOM_RIGHT"
+        "CENTER",
+        "INNER_BOTTOM_RIGHT"
       ],
       [
-        "NP.INNER_BOTTOM_RIGHT",
-        "NP.BOTTOM_RIGHT"
+        "INNER_BOTTOM_RIGHT",
+        "BOTTOM_RIGHT"
       ]
     ]
   },
@@ -1861,24 +1861,24 @@
     ],
     "edges": [
       [
-        "NP.BOTTOM_RIGHT",
-        "NP.TOP_RIGHT"
+        "BOTTOM_RIGHT",
+        "TOP_RIGHT"
       ],
       [
-        "NP.TOP_RIGHT",
-        "NP.INNER_TOP_RIGHT"
+        "TOP_RIGHT",
+        "INNER_TOP_RIGHT"
       ],
       [
-        "NP.INNER_TOP_RIGHT",
-        "NP.CENTER"
+        "INNER_TOP_RIGHT",
+        "CENTER"
       ],
       [
-        "NP.CENTER",
-        "NP.INNER_BOTTOM_LEFT"
+        "CENTER",
+        "INNER_BOTTOM_LEFT"
       ],
       [
-        "NP.INNER_BOTTOM_LEFT",
-        "NP.TOP_LEFT"
+        "INNER_BOTTOM_LEFT",
+        "TOP_LEFT"
       ]
     ]
   },
@@ -1888,20 +1888,20 @@
     ],
     "edges": [
       [
-        "NP.TOP_LEFT",
-        "NP.TOP_CENTER"
+        "TOP_LEFT",
+        "TOP_CENTER"
       ],
       [
-        "NP.TOP_CENTER",
-        "NP.CENTER"
+        "TOP_CENTER",
+        "CENTER"
       ],
       [
-        "NP.CENTER",
-        "NP.INNER_TOP_LEFT"
+        "CENTER",
+        "INNER_TOP_LEFT"
       ],
       [
-        "NP.INNER_TOP_LEFT",
-        "NP.TOP_LEFT"
+        "INNER_TOP_LEFT",
+        "TOP_LEFT"
       ]
     ]
   },
@@ -1913,24 +1913,24 @@
     ],
     "edges": [
       [
-        "NP.INNER_TOP_RIGHT",
-        "NP.INNER_TOP_LEFT"
+        "INNER_TOP_RIGHT",
+        "INNER_TOP_LEFT"
       ],
       [
-        "NP.INNER_TOP_LEFT",
-        "NP.TOP_CENTER"
+        "INNER_TOP_LEFT",
+        "TOP_CENTER"
       ],
       [
-        "NP.TOP_CENTER",
-        "NP.CENTER"
+        "TOP_CENTER",
+        "CENTER"
       ],
       [
-        "NP.CENTER",
-        "NP.BOTTOM_CENTER"
+        "CENTER",
+        "BOTTOM_CENTER"
       ],
       [
-        "NP.BOTTOM_CENTER",
-        "NP.INNER_BOTTOM_LEFT"
+        "BOTTOM_CENTER",
+        "INNER_BOTTOM_LEFT"
       ]
     ]
   },
@@ -1940,24 +1940,24 @@
     ],
     "edges": [
       [
-        "NP.BOTTOM_CENTER",
-        "NP.BOTTOM_RIGHT"
+        "BOTTOM_CENTER",
+        "BOTTOM_RIGHT"
       ],
       [
-        "NP.BOTTOM_RIGHT",
-        "NP.INNER_BOTTOM_RIGHT"
+        "BOTTOM_RIGHT",
+        "INNER_BOTTOM_RIGHT"
       ],
       [
-        "NP.INNER_BOTTOM_RIGHT",
-        "NP.CENTER"
+        "INNER_BOTTOM_RIGHT",
+        "CENTER"
       ],
       [
-        "NP.CENTER",
-        "NP.INNER_TOP_LEFT"
+        "CENTER",
+        "INNER_TOP_LEFT"
       ],
       [
-        "NP.INNER_TOP_LEFT",
-        "NP.TOP_LEFT"
+        "INNER_TOP_LEFT",
+        "TOP_LEFT"
       ]
     ]
   },
@@ -1967,12 +1967,12 @@
     ],
     "edges": [
       [
-        "NP.TOP_CENTER",
-        "NP.INNER_TOP_RIGHT"
+        "TOP_CENTER",
+        "INNER_TOP_RIGHT"
       ],
       [
-        "NP.INNER_TOP_RIGHT",
-        "NP.BOTTOM_RIGHT"
+        "INNER_TOP_RIGHT",
+        "BOTTOM_RIGHT"
       ]
     ]
   },
@@ -1982,16 +1982,16 @@
     ],
     "edges": [
       [
-        "NP.BOTTOM_LEFT",
-        "NP.INNER_TOP_LEFT"
+        "BOTTOM_LEFT",
+        "INNER_TOP_LEFT"
       ],
       [
-        "NP.INNER_TOP_LEFT",
-        "NP.INNER_TOP_RIGHT"
+        "INNER_TOP_LEFT",
+        "INNER_TOP_RIGHT"
       ],
       [
-        "NP.INNER_TOP_RIGHT",
-        "NP.BOTTOM_RIGHT"
+        "INNER_TOP_RIGHT",
+        "BOTTOM_RIGHT"
       ]
     ]
   },
@@ -2002,16 +2002,16 @@
     ],
     "edges": [
       [
-        "NP.INNER_BOTTOM_LEFT",
-        "NP.CENTER"
+        "INNER_BOTTOM_LEFT",
+        "CENTER"
       ],
       [
-        "NP.CENTER",
-        "NP.INNER_BOTTOM_RIGHT"
+        "CENTER",
+        "INNER_BOTTOM_RIGHT"
       ],
       [
-        "NP.INNER_BOTTOM_RIGHT",
-        "NP.TOP_RIGHT"
+        "INNER_BOTTOM_RIGHT",
+        "TOP_RIGHT"
       ]
     ]
   },
@@ -2021,8 +2021,8 @@
     ],
     "edges": [
       [
-        "NP.INNER_TOP_LEFT",
-        "NP.TOP_CENTER"
+        "INNER_TOP_LEFT",
+        "TOP_CENTER"
       ]
     ]
   },
@@ -2033,20 +2033,20 @@
     ],
     "edges": [
       [
-        "NP.CENTER",
-        "NP.INNER_TOP_RIGHT"
+        "CENTER",
+        "INNER_TOP_RIGHT"
       ],
       [
-        "NP.INNER_TOP_RIGHT",
-        "NP.INNER_TOP_LEFT"
+        "INNER_TOP_RIGHT",
+        "INNER_TOP_LEFT"
       ],
       [
-        "NP.INNER_TOP_LEFT",
-        "NP.INNER_BOTTOM_LEFT"
+        "INNER_TOP_LEFT",
+        "INNER_BOTTOM_LEFT"
       ],
       [
-        "NP.INNER_BOTTOM_LEFT",
-        "NP.INNER_BOTTOM_RIGHT"
+        "INNER_BOTTOM_LEFT",
+        "INNER_BOTTOM_RIGHT"
       ]
     ]
   },
@@ -2056,12 +2056,12 @@
     ],
     "edges": [
       [
-        "NP.BOTTOM_LEFT",
-        "NP.BOTTOM_CENTER"
+        "BOTTOM_LEFT",
+        "BOTTOM_CENTER"
       ],
       [
-        "NP.BOTTOM_CENTER",
-        "NP.BOTTOM_RIGHT"
+        "BOTTOM_CENTER",
+        "BOTTOM_RIGHT"
       ]
     ]
   },
@@ -2071,28 +2071,28 @@
     ],
     "edges": [
       [
-        "NP.TOP_LEFT",
-        "NP.INNER_TOP_LEFT"
+        "TOP_LEFT",
+        "INNER_TOP_LEFT"
       ],
       [
-        "NP.INNER_TOP_LEFT",
-        "NP.INNER_BOTTOM_LEFT"
+        "INNER_TOP_LEFT",
+        "INNER_BOTTOM_LEFT"
       ],
       [
-        "NP.INNER_BOTTOM_LEFT",
-        "NP.CENTER"
+        "INNER_BOTTOM_LEFT",
+        "CENTER"
       ],
       [
-        "NP.CENTER",
-        "NP.INNER_TOP_RIGHT"
+        "CENTER",
+        "INNER_TOP_RIGHT"
       ],
       [
-        "NP.INNER_TOP_RIGHT",
-        "NP.INNER_BOTTOM_RIGHT"
+        "INNER_TOP_RIGHT",
+        "INNER_BOTTOM_RIGHT"
       ],
       [
-        "NP.INNER_BOTTOM_RIGHT",
-        "NP.BOTTOM_RIGHT"
+        "INNER_BOTTOM_RIGHT",
+        "BOTTOM_RIGHT"
       ]
     ]
   },
@@ -2102,28 +2102,28 @@
     ],
     "edges": [
       [
-        "NP.BOTTOM_LEFT",
-        "NP.INNER_BOTTOM_LEFT"
+        "BOTTOM_LEFT",
+        "INNER_BOTTOM_LEFT"
       ],
       [
-        "NP.INNER_BOTTOM_LEFT",
-        "NP.INNER_TOP_LEFT"
+        "INNER_BOTTOM_LEFT",
+        "INNER_TOP_LEFT"
       ],
       [
-        "NP.INNER_TOP_LEFT",
-        "NP.TOP_CENTER"
+        "INNER_TOP_LEFT",
+        "TOP_CENTER"
       ],
       [
-        "NP.TOP_CENTER",
-        "NP.INNER_TOP_RIGHT"
+        "TOP_CENTER",
+        "INNER_TOP_RIGHT"
       ],
       [
-        "NP.INNER_TOP_RIGHT",
-        "NP.INNER_BOTTOM_RIGHT"
+        "INNER_TOP_RIGHT",
+        "INNER_BOTTOM_RIGHT"
       ],
       [
-        "NP.INNER_BOTTOM_RIGHT",
-        "NP.BOTTOM_RIGHT"
+        "INNER_BOTTOM_RIGHT",
+        "BOTTOM_RIGHT"
       ]
     ]
   },
@@ -2133,8 +2133,8 @@
     ],
     "edges": [
       [
-        "NP.INNER_BOTTOM_LEFT",
-        "NP.INNER_BOTTOM_RIGHT"
+        "INNER_BOTTOM_LEFT",
+        "INNER_BOTTOM_RIGHT"
       ]
     ]
   },
@@ -2144,20 +2144,20 @@
     ],
     "edges": [
       [
-        "NP.CENTER",
-        "NP.INNER_TOP_RIGHT"
+        "CENTER",
+        "INNER_TOP_RIGHT"
       ],
       [
-        "NP.INNER_TOP_RIGHT",
-        "NP.INNER_BOTTOM_RIGHT"
+        "INNER_TOP_RIGHT",
+        "INNER_BOTTOM_RIGHT"
       ],
       [
-        "NP.INNER_BOTTOM_RIGHT",
-        "NP.BOTTOM_CENTER"
+        "INNER_BOTTOM_RIGHT",
+        "BOTTOM_CENTER"
       ],
       [
-        "NP.BOTTOM_CENTER",
-        "NP.CENTER"
+        "BOTTOM_CENTER",
+        "CENTER"
       ]
     ]
   },
@@ -2168,16 +2168,16 @@
     ],
     "edges": [
       [
-        "NP.BOTTOM_LEFT",
-        "NP.INNER_BOTTOM_LEFT"
+        "BOTTOM_LEFT",
+        "INNER_BOTTOM_LEFT"
       ],
       [
-        "NP.INNER_BOTTOM_LEFT",
-        "NP.INNER_BOTTOM_RIGHT"
+        "INNER_BOTTOM_LEFT",
+        "INNER_BOTTOM_RIGHT"
       ],
       [
-        "NP.INNER_BOTTOM_RIGHT",
-        "NP.BOTTOM_RIGHT"
+        "INNER_BOTTOM_RIGHT",
+        "BOTTOM_RIGHT"
       ]
     ]
   },
@@ -2187,20 +2187,20 @@
     ],
     "edges": [
       [
-        "NP.INNER_TOP_LEFT",
-        "NP.INNER_BOTTOM_LEFT"
+        "INNER_TOP_LEFT",
+        "INNER_BOTTOM_LEFT"
       ],
       [
-        "NP.INNER_BOTTOM_LEFT",
-        "NP.INNER_BOTTOM_RIGHT"
+        "INNER_BOTTOM_LEFT",
+        "INNER_BOTTOM_RIGHT"
       ],
       [
-        "NP.INNER_BOTTOM_RIGHT",
-        "NP.INNER_TOP_RIGHT"
+        "INNER_BOTTOM_RIGHT",
+        "INNER_TOP_RIGHT"
       ],
       [
-        "NP.INNER_TOP_RIGHT",
-        "NP.INNER_TOP_LEFT"
+        "INNER_TOP_RIGHT",
+        "INNER_TOP_LEFT"
       ]
     ]
   },
@@ -2210,32 +2210,32 @@
     ],
     "edges": [
       [
-        "NP.TOP_RIGHT",
-        "NP.INNER_TOP_RIGHT"
+        "TOP_RIGHT",
+        "INNER_TOP_RIGHT"
       ],
       [
-        "NP.INNER_TOP_RIGHT",
-        "NP.CENTER"
+        "INNER_TOP_RIGHT",
+        "CENTER"
       ],
       [
-        "NP.CENTER",
-        "NP.INNER_BOTTOM_LEFT"
+        "CENTER",
+        "INNER_BOTTOM_LEFT"
       ],
       [
-        "NP.INNER_BOTTOM_LEFT",
-        "NP.INNER_TOP_LEFT"
+        "INNER_BOTTOM_LEFT",
+        "INNER_TOP_LEFT"
       ],
       [
-        "NP.INNER_TOP_LEFT",
-        "NP.CENTER"
+        "INNER_TOP_LEFT",
+        "CENTER"
       ],
       [
-        "NP.CENTER",
-        "NP.INNER_BOTTOM_RIGHT"
+        "CENTER",
+        "INNER_BOTTOM_RIGHT"
       ],
       [
-        "NP.INNER_BOTTOM_RIGHT",
-        "NP.BOTTOM_RIGHT"
+        "INNER_BOTTOM_RIGHT",
+        "BOTTOM_RIGHT"
       ]
     ]
   },
@@ -2245,24 +2245,24 @@
     ],
     "edges": [
       [
-        "NP.BOTTOM_LEFT",
-        "NP.INNER_BOTTOM_LEFT"
+        "BOTTOM_LEFT",
+        "INNER_BOTTOM_LEFT"
       ],
       [
-        "NP.INNER_BOTTOM_LEFT",
-        "NP.CENTER"
+        "INNER_BOTTOM_LEFT",
+        "CENTER"
       ],
       [
-        "NP.CENTER",
-        "NP.INNER_TOP_RIGHT"
+        "CENTER",
+        "INNER_TOP_RIGHT"
       ],
       [
-        "NP.INNER_TOP_RIGHT",
-        "NP.INNER_TOP_LEFT"
+        "INNER_TOP_RIGHT",
+        "INNER_TOP_LEFT"
       ],
       [
-        "NP.INNER_TOP_LEFT",
-        "NP.CENTER"
+        "INNER_TOP_LEFT",
+        "CENTER"
       ]
     ]
   },
@@ -2272,28 +2272,28 @@
     ],
     "edges": [
       [
-        "NP.CENTER",
-        "NP.INNER_TOP_RIGHT"
+        "CENTER",
+        "INNER_TOP_RIGHT"
       ],
       [
-        "NP.INNER_TOP_RIGHT",
-        "NP.INNER_BOTTOM_RIGHT"
+        "INNER_TOP_RIGHT",
+        "INNER_BOTTOM_RIGHT"
       ],
       [
-        "NP.INNER_BOTTOM_RIGHT",
-        "NP.CENTER"
+        "INNER_BOTTOM_RIGHT",
+        "CENTER"
       ],
       [
-        "NP.CENTER",
-        "NP.INNER_TOP_LEFT"
+        "CENTER",
+        "INNER_TOP_LEFT"
       ],
       [
-        "NP.INNER_TOP_LEFT",
-        "NP.INNER_BOTTOM_LEFT"
+        "INNER_TOP_LEFT",
+        "INNER_BOTTOM_LEFT"
       ],
       [
-        "NP.INNER_BOTTOM_LEFT",
-        "NP.CENTER"
+        "INNER_BOTTOM_LEFT",
+        "CENTER"
       ]
     ]
   },
@@ -2303,44 +2303,44 @@
     ],
     "edges": [
       [
-        "NP.CENTER",
-        "NP.INNER_TOP_RIGHT"
+        "CENTER",
+        "INNER_TOP_RIGHT"
       ],
       [
-        "NP.INNER_TOP_RIGHT",
-        "NP.INNER_TOP_LEFT"
+        "INNER_TOP_RIGHT",
+        "INNER_TOP_LEFT"
       ],
       [
-        "NP.INNER_TOP_LEFT",
-        "NP.INNER_BOTTOM_LEFT"
+        "INNER_TOP_LEFT",
+        "INNER_BOTTOM_LEFT"
       ],
       [
-        "NP.INNER_BOTTOM_LEFT",
-        "NP.INNER_BOTTOM_RIGHT"
+        "INNER_BOTTOM_LEFT",
+        "INNER_BOTTOM_RIGHT"
       ],
       [
-        "NP.INNER_BOTTOM_RIGHT",
-        "NP.TOP_RIGHT"
+        "INNER_BOTTOM_RIGHT",
+        "TOP_RIGHT"
       ],
       [
-        "NP.TOP_RIGHT",
-        "NP.TOP_CENTER"
+        "TOP_RIGHT",
+        "TOP_CENTER"
       ],
       [
-        "NP.TOP_CENTER",
-        "NP.TOP_LEFT"
+        "TOP_CENTER",
+        "TOP_LEFT"
       ],
       [
-        "NP.TOP_LEFT",
-        "NP.BOTTOM_LEFT"
+        "TOP_LEFT",
+        "BOTTOM_LEFT"
       ],
       [
-        "NP.BOTTOM_LEFT",
-        "NP.BOTTOM_CENTER"
+        "BOTTOM_LEFT",
+        "BOTTOM_CENTER"
       ],
       [
-        "NP.BOTTOM_CENTER",
-        "NP.BOTTOM_RIGHT"
+        "BOTTOM_CENTER",
+        "BOTTOM_RIGHT"
       ]
     ]
   },
@@ -2350,12 +2350,12 @@
     ],
     "edges": [
       [
-        "NP.CENTER",
-        "NP.INNER_BOTTOM_RIGHT"
+        "CENTER",
+        "INNER_BOTTOM_RIGHT"
       ],
       [
-        "NP.INNER_BOTTOM_RIGHT",
-        "NP.TOP_RIGHT"
+        "INNER_BOTTOM_RIGHT",
+        "TOP_RIGHT"
       ]
     ]
   },
@@ -2366,16 +2366,16 @@
     ],
     "edges": [
       [
-        "NP.BOTTOM_LEFT",
-        "NP.INNER_BOTTOM_LEFT"
+        "BOTTOM_LEFT",
+        "INNER_BOTTOM_LEFT"
       ],
       [
-        "NP.INNER_BOTTOM_LEFT",
-        "NP.BOTTOM_CENTER"
+        "INNER_BOTTOM_LEFT",
+        "BOTTOM_CENTER"
       ],
       [
-        "NP.BOTTOM_CENTER",
-        "NP.INNER_BOTTOM_RIGHT"
+        "BOTTOM_CENTER",
+        "INNER_BOTTOM_RIGHT"
       ]
     ]
   },
@@ -2385,16 +2385,16 @@
     ],
     "edges": [
       [
-        "NP.TOP_LEFT",
-        "NP.INNER_TOP_LEFT"
+        "TOP_LEFT",
+        "INNER_TOP_LEFT"
       ],
       [
-        "NP.INNER_TOP_LEFT",
-        "NP.INNER_TOP_RIGHT"
+        "INNER_TOP_LEFT",
+        "INNER_TOP_RIGHT"
       ],
       [
-        "NP.INNER_TOP_RIGHT",
-        "NP.INNER_BOTTOM_RIGHT"
+        "INNER_TOP_RIGHT",
+        "INNER_BOTTOM_RIGHT"
       ]
     ]
   },
@@ -2405,24 +2405,24 @@
     ],
     "edges": [
       [
-        "NP.INNER_TOP_LEFT",
-        "NP.INNER_BOTTOM_LEFT"
+        "INNER_TOP_LEFT",
+        "INNER_BOTTOM_LEFT"
       ],
       [
-        "NP.INNER_BOTTOM_LEFT",
-        "NP.CENTER"
+        "INNER_BOTTOM_LEFT",
+        "CENTER"
       ],
       [
-        "NP.CENTER",
-        "NP.INNER_BOTTOM_RIGHT"
+        "CENTER",
+        "INNER_BOTTOM_RIGHT"
       ],
       [
-        "NP.INNER_BOTTOM_RIGHT",
-        "NP.INNER_TOP_RIGHT"
+        "INNER_BOTTOM_RIGHT",
+        "INNER_TOP_RIGHT"
       ],
       [
-        "NP.INNER_TOP_RIGHT",
-        "NP.INNER_TOP_LEFT"
+        "INNER_TOP_RIGHT",
+        "INNER_TOP_LEFT"
       ]
     ]
   }
