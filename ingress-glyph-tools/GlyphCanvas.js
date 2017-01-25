@@ -1,7 +1,21 @@
-var GlyphCanvas = {};
+var Canvas = require('canvas');
+var Polygon = require('./Polygon');
+var nodePositions = require('./nodePositions');
 
-GlyphCanvas.drawCanvasHexagon = function(context) {
-    var radius = context.canvas.height / 2;
+function GlyphCanvas(height, edges) {
+    var canvas = new Canvas(height, height);
+    var context = canvas.getContext('2d');
+    var radius = height / 2;
+    var nodeCoordinates = nodePositions(radius);
+
+    this.drawCanvasHexagon(context, radius);
+    this.drawCanvasNodes(context, nodeCoordinates);
+    this.drawCanvasGlyph(context, nodeCoordinates, edges);
+
+    return canvas;
+}
+
+GlyphCanvas.prototype.drawCanvasHexagon = function(context, radius) {
     var coordinates = Polygon.generateCoordinates(radius, radius, 6, radius, Math.PI/6);
 
     context.beginPath();
@@ -16,7 +30,7 @@ GlyphCanvas.drawCanvasHexagon = function(context) {
     context.stroke();
 };
 
-GlyphCanvas.drawCanvasNodes = function(context, nodeCoordinates) {
+GlyphCanvas.prototype.drawCanvasNodes = function(context, nodeCoordinates) {
     var radius = context.canvas.height / 2;
 
     context.fillStyle = "black";
@@ -31,7 +45,7 @@ GlyphCanvas.drawCanvasNodes = function(context, nodeCoordinates) {
     context.translate(-radius, -radius);
 };
 
-GlyphCanvas.drawCanvasGlyph = function(context, nodeCoordinates, edges) {
+GlyphCanvas.prototype.drawCanvasGlyph = function(context, nodeCoordinates, edges) {
     var radius = context.canvas.height / 2;
     context.translate(radius, radius);
 
