@@ -1,0 +1,14 @@
+{
+  "name": "glyphs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "worc",
+  "license": "ISC",
+  "dependencies": {
+    "canvas": "^1.6.2"
+  }
+}
