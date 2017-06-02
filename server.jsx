@@ -1,8 +1,14 @@
 import express from "express";
+import { renderToString } from "react-dom/server";
+import { StaticRouter } from "react-router-dom";
+import React from "react";
+
+import Glyphtionary from "./ingress-glyph-tools/Glyphtionary";
+import Glyph from "./shared/components/Glyph";
 
 const app = express();
 
-const renderPage = (title) => `
+const renderPage = (title, app) => `
   <!DOCTYPE html>
     <html lang="en">
       <head>
@@ -14,8 +20,9 @@ const renderPage = (title) => `
           <h1>${title}</h1>
         </header>
         
+        <div id="app">${renderToString(app)}</div>
+        
       </body>
-      <script src="/static/client.js"></script>
     </html>
   </html>
 `;
@@ -27,10 +34,17 @@ app.get("/", (req, res) => {
 });
 
 app.get("/glyphs", (req, res) => {
-  let pageTitle = "Glyphs";
-
-  res.status(200).send(renderPage(pageTitle));
+  res.status(200).send(
+    JSON.stringify(Glyphtionary)
+  );
 });
 
+app.get("/glyphs/:glyph", (req, res) => {
+  let currentGlyph = req.params.glyph;
+
+  res.status(200).send(renderPage(currentGlyph, (
+    <Glyph edges={ Glyphtionary[currentGlyph].edges } />
+  )));
+});
 
 export default app;
