@@ -6,6 +6,8 @@ The project is basically three things: a dictionary of glyphs from the game Ingr
 I started out with this side project based on a frustration with the current Ingress glyph dictionaries out there. The source code I found wasn't written in a way that was open to extension or modification. so I put together a few ideas here to clarify what a glyph is and one way it can be rendered without a lot of convoluted hard coding.
 
 The ingress-glyph-tools folder is a total rewrite of another ingress-glyph-tools library I found in the wild. I pulled the canvas rendering functionality into a completely separate class just to get a better separation of concerns and open the possibility of customizing the display of the glyph without affecting the abstract model of the glyph.
+
+I have my old proof of concept for polygon generation on [stackoverflow](https://stackoverflow.com/a/41686634/769780). 
  
  The React components to put this rendering into the DOM are located in shared/components/ and are pretty straightforward JSX components.
  
