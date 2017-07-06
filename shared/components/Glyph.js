@@ -1,4 +1,5 @@
 import React from "react";
+import Glyphs from "../../ingress-glyph-tools/Glyphs";
 import GlyphCanvas from "../../ingress-glyph-tools/GlyphCanvas";
 
 class Glyph extends React.Component {
@@ -7,15 +8,19 @@ class Glyph extends React.Component {
     super(props);
 
     this.state = {
-      canvas : new GlyphCanvas(100, props.edges)
+      glyph : Glyphs.find((element) => {
+        return element.name.indexOf(this.props.name) > -1;
+      })
     }
   }
 
   render() {
+    let canvas = new GlyphCanvas(100, this.state.glyph.edges);
+
     return (
       <div>
-        <img src={ this.state.canvas.toDataURL() } />
-        <div>{this.props.name}</div>
+        <img src={ canvas.toDataURL() } />
+        <div>{this.state.glyph.name.join(", ")}</div>
       </div>
     )
   }

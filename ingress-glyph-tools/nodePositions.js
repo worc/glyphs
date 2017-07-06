@@ -24,7 +24,8 @@ var positions = {
 };
 
 function nodePositions(radius) {
-    // todo shrinkage as parameter
+    // todo shrinkage as parameter, shrinkage will create padding
+    // between the edge of the plane and the glyph itself
     var shrinkage = 0.8;
     var nodePositions = {};
 
