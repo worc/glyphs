@@ -2399,6 +2399,42 @@
     ]
   },
   {
+    "name" : [
+      "whiskey"
+    ],
+    "edges": [
+      [
+        "TOP_LEFT",
+        "TOP_RIGHT"
+      ],
+      [
+        "TOP_RIGHT",
+        "BOTTOM_RIGHT"
+      ],
+      [
+        "BOTTOM_RIGHT",
+        "BOTTOM_LEFT"
+      ],
+      [
+        "BOTTOM_LEFT",
+        "TOP_LEFT"
+      ],
+      [
+        "TOP_LEFT",
+        "INNER_BOTTOM_LEFT"
+      ],
+      [
+        "INNER_BOTTOM_LEFT",
+        "INNER_BOTTOM_RIGHT"
+      ],
+      [
+        "INNER_BOTTOM_RIGHT",
+        "TOP_RIGHT"
+      ]
+    ]
+
+  },
+  {
     "name": [
       "xm",
       "exotic matter"
