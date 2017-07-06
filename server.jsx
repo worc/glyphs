@@ -3,8 +3,6 @@ import { renderToString } from "react-dom/server";
 // import { StaticRouter } from "react-router-dom";
 import React from "react";
 
-import Glyphtionary from "./ingress-glyph-tools/Glyphtionary";
-
 import Glyph from "./shared/components/Glyph";
 import GlyptionaryComponent from "./shared/components/Glyphtionary";
 
