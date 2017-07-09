@@ -3,7 +3,7 @@ import { renderToString } from "react-dom/server";
 // import { StaticRouter } from "react-router-dom";
 import React from "react";
 
-import Glyph from "./shared/components/Glyph";
+import GlyphSequence from "./shared/components/GlyphSequence";
 import GlyptionaryComponent from "./shared/components/Glyphtionary";
 
 const app = express();
@@ -40,10 +40,13 @@ app.get("/glyphs", (req, res) => {
 });
 
 app.get("/glyphs/:glyph", (req, res) => {
-  let currentGlyph = req.params.glyph;
+  let delimiters = new RegExp(/[+\-_]/); // allow for + - and _ to be delimiters for glyph sequences
+  let glyphSequence = req.params.glyph.split(delimiters);
 
-  res.status(200).send(renderPage(currentGlyph, (
-    <Glyph name={req.params.glyph} />
+  console.log(glyphSequence);
+
+  res.status(200).send(renderPage(req.params.glyph, (
+    <GlyphSequence names={glyphSequence} />
   )));
 });
 

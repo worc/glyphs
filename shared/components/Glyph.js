@@ -18,7 +18,7 @@ class Glyph extends React.Component {
     let canvas = new GlyphCanvas(100, this.state.glyph.edges);
 
     return (
-      <div>
+      <div style={this.props.style} >
         <img src={ canvas.toDataURL() } />
         <div>{this.state.glyph.name.join(", ")}</div>
       </div>
