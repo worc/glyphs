@@ -18,7 +18,7 @@ class Glyphtionary extends React.Component {
         <div>
           {
             Glyphs.map( (glyph, index) => {
-              let url = "glyphs/" + glyph.name[0];
+              let url = glyph.name[0];
 
               return (
                 <div key={index}>
