@@ -1,10 +1,11 @@
 import express from "express";
 import { renderToString } from "react-dom/server";
-// import { StaticRouter } from "react-router-dom";
+import { StaticRouter } from "react-router-dom";
 import React from "react";
 
+// import App from "./shared/App";
 import GlyphSequence from "./shared/components/GlyphSequence";
-import GlyptionaryComponent from "./shared/components/Glyphtionary";
+import Glyphtionary from "./shared/components/Glyphtionary";
 
 const app = express();
 
@@ -32,18 +33,18 @@ app.get("/", (req, res) => {
 });
 
 app.get("/glyphs", (req, res) => {
-  let pageTitle = "Glyphtionary";
+  let pageTitle = "Ingress Glyphtionary";
 
   res.status(200).send(renderPage(pageTitle, (
-    <GlyptionaryComponent />
+    <StaticRouter context={{}} location={req.url}>
+      <Glyphtionary />
+    </StaticRouter>
   )));
 });
 
 app.get("/glyphs/:glyph", (req, res) => {
   let delimiters = new RegExp(/[+\-_]/); // allow for + - and _ to be delimiters for glyph sequences
   let glyphSequence = req.params.glyph.split(delimiters);
-
-  console.log(glyphSequence);
 
   res.status(200).send(renderPage(req.params.glyph, (
     <GlyphSequence names={glyphSequence} />

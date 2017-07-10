@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import Glyphs from "../../ingress-glyph-tools/Glyphs";
 
@@ -18,11 +19,9 @@ class Glyphtionary extends React.Component {
         <div>
           {
             Glyphs.map( (glyph, index) => {
-              let url = glyph.name[0];
-
               return (
                 <div key={index}>
-                  <div><a href={url}>{glyph.name.join(", ")}</a></div>
+                  <div><Link to={ "/glyphs/" + glyph.name[0] }>{glyph.name.join(", ")}</Link></div>
                 </div>
               )
             })
@@ -33,4 +32,4 @@ class Glyphtionary extends React.Component {
   }
 }
 
-module.exports = Glyphtionary;
+export default Glyphtionary;

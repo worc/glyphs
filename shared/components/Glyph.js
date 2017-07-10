@@ -15,7 +15,7 @@ class Glyph extends React.Component {
   }
 
   render() {
-    let canvas = new GlyphCanvas(100, this.state.glyph.edges);
+    let canvas = new GlyphCanvas(this.props.height, this.state.glyph.edges);
 
     return (
       <div style={this.props.style} >
