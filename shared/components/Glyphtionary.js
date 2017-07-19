@@ -1,16 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import Glyphs from "../../ingress-glyph-tools/Glyphs";
+import Glyphs from "../utils/Glyphs";
 
 class Glyphtionary extends React.Component {
 
   constructor(props) {
     super(props);
-
-    this.state = {
-      glyphs: Glyphs
-    }
   }
 
   render() {
