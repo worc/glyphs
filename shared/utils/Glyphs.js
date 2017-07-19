@@ -1,4 +1,4 @@
-[
+export default [
   {
     "name": [
       "abandon"
@@ -2399,7 +2399,7 @@
     ]
   },
   {
-    "name" : [
+    "name": [
       "whiskey"
     ],
     "edges": [
@@ -2432,7 +2432,6 @@
         "TOP_RIGHT"
       ]
     ]
-
   },
   {
     "name": [
