@@ -1,0 +1,1 @@
+making sure this folder is created and exists. webpack and babel break if confronted with the apparently intractable problem of a directory that hasn't been created yet. this dummy file tracked, but the actual js output files won't be.

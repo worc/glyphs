@@ -4,7 +4,7 @@
   "description": "generating ingress glyphs",
   "main": "server.js",
   "scripts": {
-    "build": "webpack && uglifyjs ./dist/client.js -c > ./dist/client.min.js",
+    "build": "babel server.js --out-file dist/server.js && webpack --config webpack.config.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon server.js --exec babel-node"
   },
@@ -12,7 +12,8 @@
   "license": "ISC",
   "dependencies": {
     "babel": "^6.23.0",
-    "canvas": "^1.6.2",
+    "babel-loader": "^7.1.1",
+    "canvas": "^1.6.5",
     "express": "^4.15.3",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
