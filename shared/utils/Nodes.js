@@ -1,4 +1,4 @@
-var root3 = Math.sqrt(3);
+const root3 = Math.sqrt(3);
 
 // Node Positions:
 //           TC
@@ -9,7 +9,7 @@ var root3 = Math.sqrt(3);
 //   BL             BR
 //           BC
 // values are in radii, -1 on the y axis means move up 1 radii from the center
-var positions = {
+const positions = {
     "TOP_CENTER": [0,-1],
     "TOP_RIGHT": [root3/2,-1/2],
     "BOTTOM_RIGHT": [root3/2,1/2],
@@ -24,7 +24,7 @@ var positions = {
 };
 
 function nodePositions(radius) {
-    // todo shrinkage as parameter, shrinkage will create padding
+    // todo shrinkage as parameter, shrinkage will create padding between nodes and the radius given
     // between the edge of the plane and the glyph itself
     var shrinkage = 0.8;
     var nodePositions = {};
@@ -38,10 +38,4 @@ function nodePositions(radius) {
     return nodePositions;
 }
 
-if(typeof define === 'undefined') {
-    module.exports = nodePositions;
-} else {
-    define(function(require, exports, module) {
-        module.exports = nodePositions;
-    });
-}
+module.exports = nodePositions;
