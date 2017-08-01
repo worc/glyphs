@@ -30,6 +30,11 @@ const renderPage = (title, app) => `
   </html>
 `;
 
+app.use("/", (req, res, next) => {
+  console.log(process.memoryUsage());
+  next();
+});
+
 app.get("/", (req, res) => {
   res.redirect("/glyphs");
 });
@@ -43,6 +48,8 @@ app.get("/glyphs/:glyphs?", (req, res) => {
     </StaticRouter>
   )));
 });
+
+// todo add routes to /glyphs/images/:glyph to retrieve .png files directly
 
 // app.get("/glyphs/:glyph", (req, res) => {
 //   let delimiters = new RegExp(/[+\-_]/); // allow for + - and _ to be delimiters for glyph sequences
