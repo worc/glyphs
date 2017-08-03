@@ -9,6 +9,7 @@ import App from "./shared/App";
 // import Glyphtionary from "./shared/components/Glyphtionary";
 
 const app = express();
+const PORT = process.env.PORT || 3000;
 
 const renderPage = (title, app) => `
   <!DOCTYPE html>
@@ -60,6 +61,8 @@ app.get("/glyphs/:glyphs?", (req, res) => {
 //   )));
 // });
 
-app.use("/static/client.js", express.static(path.join(__dirname, "dist/client.js")));
+app.use("/static/client.js", express.static(path.join(process.cwd(), "dist/client.js")));
 
-export default app;
+app.listen(PORT, () => {
+  console.log("Server listening on", PORT);
+});
