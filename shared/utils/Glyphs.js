@@ -235,7 +235,8 @@ export default [
   },
   {
     "name": [
-      "body"
+      "body",
+      "human"
     ],
     "edges": [
       [
