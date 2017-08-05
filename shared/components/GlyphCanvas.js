@@ -17,48 +17,35 @@ class GlyphCanvas extends React.Component {
     this.drawCanvasGlyph(context, nodeCoordinates, this.props.edges);
   }
 
-  /**
-   * helper function to convert the color/alpha information stored as an object
-   * into a CSS color string. maybe i'll have to handle hsl(a) and color names here too
-   *
-   * @param styleObject
-   * @returns {string}
-   */
-  colorStringFromObject(styleObject) {
-    return "rgba(" +
-      styleObject.red + "," +
-      styleObject.green + "," +
-      styleObject.blue + "," +
-      styleObject.alpha + ")";
-  }
-
   drawCanvasHexagon(context, radius) {
-    var coordinates = Polygon.generateCoordinates(radius, radius, 6, radius, Math.PI/6);
+    if(this.props.style.borderWidth > 0) {
+      var coordinates = Polygon.generateCoordinates(radius, radius, 6, radius, Math.PI/6);
 
-    context.lineWidth = this.props.style.hexagon.lineWidth;
-    context.strokeStyle = this.colorStringFromObject(this.props.style.hexagon);
+      context.lineWidth = this.props.style.borderWidth;
+      context.strokeStyle = this.props.style.border.css(); // color styles handed down are chroma objects and can be converted to css strings with the css() prototype
 
-    context.beginPath();
-    coordinates.forEach( (coordinate, index) => {
-      if(index === 0) {
-        context.moveTo(coordinate.x, coordinate.y);
-      } else {
-        context.lineTo(coordinate.x, coordinate.y);
-      }
-    });
-    context.closePath();
-    context.stroke();
+      context.beginPath();
+      coordinates.forEach( (coordinate, index) => {
+        if(index === 0) {
+          context.moveTo(coordinate.x, coordinate.y);
+        } else {
+          context.lineTo(coordinate.x, coordinate.y);
+        }
+      });
+      context.closePath();
+      context.stroke();
+    }
   }
 
   drawCanvasNodes(context, nodeCoordinates) {
     var radius = context.canvas.height / 2;
 
-    context.fillStyle = this.colorStringFromObject(this.props.style.nodes);
+    context.fillStyle = this.props.style.nodeColor.css();
     context.translate(radius, radius);
 
     Object.keys(nodeCoordinates).forEach(position => {
       context.beginPath();
-      context.arc(nodeCoordinates[position].x, nodeCoordinates[position].y, this.props.style.nodes.radius, 0, 2 * Math.PI, false);
+      context.arc(nodeCoordinates[position].x, nodeCoordinates[position].y, this.props.style.nodeRadius, 0, 2 * Math.PI, false);
       context.fill();
     });
 
@@ -69,8 +56,8 @@ class GlyphCanvas extends React.Component {
     var radius = context.canvas.height / 2;
     context.translate(radius, radius);
 
-    context.lineWidth = this.props.style.trace.lineWidth;
-    context.strokeStyle = this.colorStringFromObject(this.props.style.trace);
+    context.lineWidth = this.props.style.traceWidth;
+    context.strokeStyle = this.props.style.traceColor.css();
 
     edges.forEach(edge => {
       context.beginPath();
