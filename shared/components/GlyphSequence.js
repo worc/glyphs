@@ -1,5 +1,9 @@
 import React from "react";
+import queryString from "query-string";
+import chroma from "chroma-js";
+
 import Glyph from "./Glyph";
+import GlyphStyle from "./GlyphStyle";
 
 class GlyphSequence extends React.Component {
 
