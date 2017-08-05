@@ -5,8 +5,6 @@ import React from "react";
 import path from "path";
 
 import App from "./shared/App";
-// import GlyphSequence from "./shared/components/GlyphSequence";
-// import Glyphtionary from "./shared/components/Glyphtionary";
 
 const app = express();
 const PORT = process.env.PORT || 3000;
