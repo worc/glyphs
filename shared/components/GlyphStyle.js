@@ -81,7 +81,7 @@ class GlyphStyle extends React.Component {
        <form onChange={this.props.onSizeChange}>
          <label>
            radius:
-           <input type="number" name="nodeRadius" defaultValue={this.props.style.nodeRadius} min="0" />
+           <input type="number" name="nodeRadius" defaultValue={this.props.style.nodeRadius} min="0" step="0.1" />
          </label>
        </form>
 
@@ -96,6 +96,10 @@ class GlyphStyle extends React.Component {
          <label>
            border width:
            <input type="number" name="borderWidth" defaultValue={this.props.style.borderWidth} min="0" />
+         </label>
+         <label>
+           border padding (%):
+           <input type="number" name="borderPadding" defaultValue={this.props.style.borderPadding} min="0" max="100" />
          </label>
        </form>
      </div>
