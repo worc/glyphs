@@ -6,23 +6,29 @@ import Nodes from "../utils/Nodes";
 class GlyphCanvas extends React.Component {
 
   componentDidUpdate() {
+    debugger;
     let context = this.canvas.getContext("2d");
-    let radius = this.props.height / 2;
-    let nodeCoordinates = Nodes(this.props.height / 2);
+
+    // the top and bottom points of the hexagon are cut off
+    // subtracting the border width for each point out from the full height of the desired glyph height
+    // leaves room for the points to render
+    let innerRadius = (this.props.style.height - this.props.style.borderWidth * 2) / 2;
+    let nodeCoordinates = Nodes(innerRadius, this.props.style.borderPadding);
 
     context.clearRect(0, 0, context.canvas.width, context.canvas.height);
 
-    this.drawCanvasHexagon(context, radius);
+    this.drawCanvasHexagon(this.canvas, innerRadius, this.props.style.borderWidth, this.props.style.borderColor);
     this.drawCanvasNodes(context, nodeCoordinates);
     this.drawCanvasGlyph(context, nodeCoordinates, this.props.edges);
   }
 
-  drawCanvasHexagon(context, radius) {
-    if(this.props.style.borderWidth > 0) {
-      var coordinates = Polygon.generateCoordinates(radius, radius, 6, radius, Math.PI/6);
+  drawCanvasHexagon(canvas, radius, borderWidth, chromaObj) {
+    if(borderWidth > 0) {
+      let context = canvas.getContext("2d");
+      let coordinates = Polygon.generateCoordinates(canvas.width / 2, canvas.height / 2, 6, radius, Math.PI/6);
 
-      context.lineWidth = this.props.style.borderWidth;
-      context.strokeStyle = this.props.style.border.css(); // color styles handed down are chroma objects and can be converted to css strings with the css() prototype
+      context.lineWidth = borderWidth;
+      context.strokeStyle = chromaObj.css(); // color styles handed down are chroma objects and can be converted to css strings with the css() prototype
 
       context.beginPath();
       coordinates.forEach( (coordinate, index) => {
@@ -71,7 +77,7 @@ class GlyphCanvas extends React.Component {
 
   render() {
     return (
-      <canvas ref={(canvas) => { this.canvas = canvas }} height={this.props.height} width={this.props.height} />
+      <canvas ref={(canvas) => { this.canvas = canvas }} height={this.props.style.height} width={this.props.style.height} />
     )
   }
 }
