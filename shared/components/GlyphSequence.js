@@ -19,7 +19,7 @@ class GlyphSequence extends React.Component {
     // pretty much any color string you throw at it
     let height = parameters.height || 100;
     let width = height;
-    let border = chroma(parameters.border || "rgba(0, 0, 0, 1)");
+    let borderColor = chroma(parameters.border || "rgba(0, 0, 0, 1)");
     let borderWidth = parameters.borderWidth || 1;
     let background = chroma(parameters.background || "rgba(0, 0, 0, 0)");
     let nodeColor = chroma(parameters.nodeColor || "rgba(0, 0, 0, 1)");
@@ -33,7 +33,7 @@ class GlyphSequence extends React.Component {
       style: {
         height: height,
         width: width,
-        border: border,
+        borderColor: borderColor,
         borderWidth: borderWidth,
         background: background,
         nodeColor: nodeColor,

@@ -85,10 +85,10 @@ class GlyphStyle extends React.Component {
          </label>
        </form>
 
-       <form name="border" onChange={this.props.onColorChange}>
+       <form name="borderColor" onChange={this.props.onColorChange}>
          <h3>border</h3>
          {
-           this.colorChannels.map(this.colorChannelGenerator("border"))
+           this.colorChannels.map(this.colorChannelGenerator("borderColor"))
          }
        </form>
 
