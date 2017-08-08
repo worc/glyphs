@@ -21,6 +21,7 @@ class GlyphSequence extends React.Component {
     let width = height;
     let borderColor = chroma(parameters.border || "rgba(0, 0, 0, 1)");
     let borderWidth = parameters.borderWidth || 1;
+    let borderPadding = parameters.borderPadding || 20;
     let background = chroma(parameters.background || "rgba(0, 0, 0, 0)");
     let nodeColor = chroma(parameters.nodeColor || "rgba(0, 0, 0, 1)");
     let nodeRadius = parameters.nodeRadius || 3;
@@ -35,6 +36,7 @@ class GlyphSequence extends React.Component {
         width: width,
         borderColor: borderColor,
         borderWidth: borderWidth,
+        borderPadding: borderPadding,
         background: background,
         nodeColor: nodeColor,
         nodeRadius: nodeRadius,
