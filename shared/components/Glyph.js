@@ -76,7 +76,7 @@ class Glyph extends React.Component {
   render() {
     return (
       <div style={this.props.glyphDisplayStyle} >
-        <GlyphCanvas style={this.props.style} height={this.props.style.height} width={this.props.style.width} edges={this.state.glyph.edges} />
+        <GlyphCanvas style={this.props.style} edges={this.state.glyph.edges} />
         <div>{this.state.glyph.name.join(", ")}</div>
       </div>
     )
