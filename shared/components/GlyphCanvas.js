@@ -6,7 +6,6 @@ import Nodes from "../utils/Nodes";
 class GlyphCanvas extends React.Component {
 
   componentDidUpdate() {
-    debugger;
     let context = this.canvas.getContext("2d");
 
     // the top and bottom points of the hexagon are cut off
@@ -60,17 +59,36 @@ class GlyphCanvas extends React.Component {
 
   drawCanvasGlyph(context, nodeCoordinates, edges) {
     var radius = context.canvas.height / 2;
+
+    // todo add effect for touched nodes?
+    // let touchedNodes = [];
+    //
+    // edges.reduce((edgesA, edgesB) => {
+    //   return edgesA.concat(edgesB);
+    // }).forEach(node => {
+    //   if(touchedNodes.indexOf(node) === -1) {
+    //     touchedNodes.push(node);
+    //   }
+    // });
+
     context.translate(radius, radius);
 
     context.lineWidth = this.props.style.traceWidth;
     context.strokeStyle = this.props.style.traceColor.css();
+    context.fillStyle = this.props.style.traceColor.css();
+
+    // todo parameterize
+    context.lineCap = "round";
+    context.lineJoin = "round";
+
+    context.beginPath();
 
     edges.forEach(edge => {
-      context.beginPath();
       context.moveTo(nodeCoordinates[edge[0]].x, nodeCoordinates[edge[0]].y);
       context.lineTo(nodeCoordinates[edge[1]].x, nodeCoordinates[edge[1]].y);
-      context.stroke();
     });
+
+    context.stroke();
 
     context.translate(-radius, -radius);
   }
