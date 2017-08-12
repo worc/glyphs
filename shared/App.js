@@ -8,8 +8,8 @@ class App extends React.Component{
   render() {
     return (
       <Switch>
-        <Route path="/glyphs" exact component={Glyphtionary} />
-        <Route path="/glyphs/:glyph" exact component={GlyphSequence} />
+        <Route path="/glyphs" exact render={(props) => <Glyphtionary host={this.props.host} {...props} />} />
+        <Route path="/glyphs/:glyph" exact render={(props) => <GlyphSequence host={this.props.host} {...props} />} />
       </Switch>
     )
   }
