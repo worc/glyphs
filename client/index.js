@@ -6,6 +6,6 @@ import App from "../shared/App";
 
 render((
   <BrowserRouter>
-    <App />
+    <App host={window.location.host} />
   </BrowserRouter>
 ), document.getElementById("app"));
