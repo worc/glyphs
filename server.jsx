@@ -41,9 +41,11 @@ app.get("/", (req, res) => {
 app.get("/glyphs/:glyphs?", (req, res) => {
   let pageTitle = "Ingress Glyphtionary";
 
+  console.log("req.headers.host: ", req.headers.host);
+
   res.status(200).send(renderPage(pageTitle, (
     <StaticRouter context={{}} location={req.url}>
-      <App />
+      <App host={req.headers.host} />
     </StaticRouter>
   )));
 });
