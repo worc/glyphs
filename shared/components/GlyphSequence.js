@@ -4,6 +4,7 @@ import chroma from "chroma-js";
 
 import Glyph from "./Glyph";
 import GlyphStyle from "./GlyphStyle";
+import ShareLink from "./ShareLink";
 
 class GlyphSequence extends React.Component {
 
@@ -109,6 +110,7 @@ class GlyphSequence extends React.Component {
             onColorChange={this.onColorChange}
           />
           <button>download png</button>
+          <ShareLink host={this.props.host} pathname={this.props.location.pathname} params={this.state.style} />
         </div>
       </div>
     )
