@@ -1,6 +1,6 @@
 import React from "react";
 
-import Polygon from "../utils/Polygon";
+import DrawGlyph from "../utils/DrawGlyph";
 import Nodes from "../utils/Nodes";
 
 class GlyphCanvas extends React.Component {
@@ -16,81 +16,10 @@ class GlyphCanvas extends React.Component {
 
     context.clearRect(0, 0, context.canvas.width, context.canvas.height);
 
-    this.drawCanvasHexagon(this.canvas, innerRadius, this.props.style.borderWidth, this.props.style.borderColor);
-    this.drawCanvasNodes(context, nodeCoordinates);
-    this.drawCanvasGlyph(context, nodeCoordinates, this.props.edges);
-  }
+    DrawGlyph.hexagon(this.canvas, innerRadius, this.props.style.borderWidth, this.props.style.borderColor);
+    DrawGlyph.nodes(context, nodeCoordinates, this.props.style.nodeRadius, this.props.style.nodeColor);
+    DrawGlyph.glyph(context, nodeCoordinates, this.props.edges, this.props.style.traceWidth, this.props.style.traceColor);
 
-  drawCanvasHexagon(canvas, radius, borderWidth, chromaObj) {
-    if(borderWidth > 0) {
-      let context = canvas.getContext("2d");
-      let coordinates = Polygon.generateCoordinates(canvas.width / 2, canvas.height / 2, 6, radius, Math.PI/6);
-
-      context.lineWidth = borderWidth;
-      context.strokeStyle = chromaObj.css(); // color styles handed down are chroma objects and can be converted to css strings with the css() prototype
-
-      context.beginPath();
-      coordinates.forEach( (coordinate, index) => {
-        if(index === 0) {
-          context.moveTo(coordinate.x, coordinate.y);
-        } else {
-          context.lineTo(coordinate.x, coordinate.y);
-        }
-      });
-      context.closePath();
-      context.stroke();
-    }
-  }
-
-  drawCanvasNodes(context, nodeCoordinates) {
-    var radius = context.canvas.height / 2;
-
-    context.fillStyle = this.props.style.nodeColor.css();
-    context.translate(radius, radius);
-
-    Object.keys(nodeCoordinates).forEach(position => {
-      context.beginPath();
-      context.arc(nodeCoordinates[position].x, nodeCoordinates[position].y, this.props.style.nodeRadius, 0, 2 * Math.PI, false);
-      context.fill();
-    });
-
-    context.translate(-radius, -radius);
-  }
-
-  drawCanvasGlyph(context, nodeCoordinates, edges) {
-    var radius = context.canvas.height / 2;
-
-    // todo add effect for touched nodes?
-    // let touchedNodes = [];
-    //
-    // edges.reduce((edgesA, edgesB) => {
-    //   return edgesA.concat(edgesB);
-    // }).forEach(node => {
-    //   if(touchedNodes.indexOf(node) === -1) {
-    //     touchedNodes.push(node);
-    //   }
-    // });
-
-    context.translate(radius, radius);
-
-    context.lineWidth = this.props.style.traceWidth;
-    context.strokeStyle = this.props.style.traceColor.css();
-    context.fillStyle = this.props.style.traceColor.css();
-
-    // todo parameterize
-    context.lineCap = "round";
-    context.lineJoin = "round";
-
-    context.beginPath();
-
-    edges.forEach(edge => {
-      context.moveTo(nodeCoordinates[edge[0]].x, nodeCoordinates[edge[0]].y);
-      context.lineTo(nodeCoordinates[edge[1]].x, nodeCoordinates[edge[1]].y);
-    });
-
-    context.stroke();
-
-    context.translate(-radius, -radius);
   }
 
   render() {
