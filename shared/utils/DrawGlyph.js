@@ -6,7 +6,7 @@ import Glyphs from "./Glyphs";
 import Polygon from "./Polygon";
 import Nodes from "./Nodes";
 
-export default class GlyphImage {
+export default class DrawGlyph {
   /**
    *
    * @param canvas
@@ -14,7 +14,7 @@ export default class GlyphImage {
    * @param borderWidth
    * @param {object} strokeStyle - chroma object
    */
-  static drawCanvasHexagon(canvas, radius, borderWidth, strokeStyle) {
+  static hexagon(canvas, radius, borderWidth, strokeStyle) {
     if(borderWidth > 0) {
       let context = canvas.getContext("2d");
       let coordinates = Polygon.generateCoordinates(canvas.width / 2, canvas.height / 2, 6, radius, Math.PI/6);
@@ -42,7 +42,7 @@ export default class GlyphImage {
    * @param nodeRadius
    * @param {object} nodeColor - chroma object
    */
-  static drawCanvasNodes(context, nodeCoordinates, nodeRadius, nodeColor) {
+  static nodes(context, nodeCoordinates, nodeRadius, nodeColor) {
     let radius = context.canvas.height / 2;
 
     context.fillStyle = nodeColor.css();
@@ -65,7 +65,7 @@ export default class GlyphImage {
    * @param lineWidth
    * @param {object} lineColor - chroma object
    */
-  static drawCanvasGlyph(context, nodeCoordinates, edges, lineWidth, lineColor) {
+  static glyph(context, nodeCoordinates, edges, lineWidth, lineColor) {
     let radius = context.canvas.height / 2;
 
     // todo add effect for touched nodes?
