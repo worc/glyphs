@@ -2,9 +2,9 @@ import Canvas from "canvas";
 import queryString from "query-string";
 import chroma from "chroma-js";
 
-import Glyphs from "../shared/utils/Glyphs";
-import Polygon from "../shared/utils/Polygon";
-import Nodes from "../shared/utils/Nodes";
+import Glyphs from "./Glyphs";
+import Polygon from "./Polygon";
+import Nodes from "./Nodes";
 
 class GlyphImage {
   /**
