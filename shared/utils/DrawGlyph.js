@@ -7,11 +7,14 @@ export default class DrawGlyph {
    * @param radius
    * @param borderWidth
    * @param {object} strokeStyle - chroma object
+   * @param {number} xPosition
+   * @param {number} yPosition
+   *
    */
-  static hexagon(canvas, radius, borderWidth, strokeStyle) {
+  static hexagon(canvas, radius, borderWidth, strokeStyle, xPosition, yPosition) {
     if(borderWidth > 0) {
       let context = canvas.getContext("2d");
-      let coordinates = Polygon.generateCoordinates(canvas.width / 2, canvas.height / 2, 6, radius, Math.PI/6);
+      let coordinates = Polygon.generateCoordinates(xPosition, yPosition, 6, radius, Math.PI/6);
 
       context.lineWidth = borderWidth;
       context.strokeStyle = strokeStyle.css(); // color styles handed down are chroma objects and can be converted to css strings with the css() prototype

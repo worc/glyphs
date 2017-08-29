@@ -13,10 +13,14 @@ class GlyphCanvas extends React.Component {
     // leaves room for the points to render
     let innerRadius = (this.props.style.height - this.props.style.borderWidth * 2) / 2;
     let nodeCoordinates = Nodes(innerRadius, this.props.style.borderPadding);
+    let center = {
+      x: this.canvas.width / 2,
+      y: this.canvas.height / 2,
+    };
 
     context.clearRect(0, 0, context.canvas.width, context.canvas.height);
 
-    DrawGlyph.hexagon(this.canvas, innerRadius, this.props.style.borderWidth, this.props.style.borderColor);
+    DrawGlyph.hexagon(this.canvas, innerRadius, this.props.style.borderWidth, this.props.style.borderColor, center.x, center.y);
     DrawGlyph.nodes(context, nodeCoordinates, this.props.style.nodeRadius, this.props.style.nodeColor);
     DrawGlyph.glyph(context, nodeCoordinates, this.props.edges, this.props.style.traceWidth, this.props.style.traceColor);
 
