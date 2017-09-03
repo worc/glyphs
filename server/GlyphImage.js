@@ -6,39 +6,67 @@ import DrawGlyph from "../shared/utils/DrawGlyph";
 import Glyphs from "../shared/utils/Glyphs";
 import Nodes from "../shared/utils/Nodes";
 
-export default (glyph, query) => {
-  let edges = Glyphs.find((element) => {
-    return element.name.indexOf(glyph) > -1;
-  }).edges;
+export default class GlyphImage {
+  constructor(glyphSequence, query) {
+    // default values are overridden by destructured query string object
+    let {
+      height = 100,
+      width = 100,
+      borderColor = chroma("rgba(0, 0, 0, 1)"),
+      borderWidth = 1,
+      borderPadding = 20,
+      background = chroma("rgba(0, 0, 0, 0)"),
+      nodeColor = chroma("rgba(0, 0, 0, 1)"),
+      nodeRadius = 3,
+      traceColor = chroma("rgba(255, 155, 155, 0.5)"),
+      traceWidth = 5
+    } = queryString.parse(query);
 
-  let parameters = queryString.parse(query);
+    // // values are packed into the parameters object to be sent down to each image
+    // let parameters = {
+    //   height,
+    //   width,
+    //   borderColor,
+    //   borderWidth,
+    //   borderPadding,
+    //   background,
+    //   nodeColor,
+    //   nodeRadius,
+    //   traceColor,
+    //   traceWidth
+    // };
 
-  // create default parameters for any not given:
-  // colors as stored as chroma objects since the library seems to handle
-  // pretty much any color string you throw at it
-  let height = parameters.height || 100;
-  let width = height;
-  let borderColor = chroma(parameters.border || "rgba(0, 0, 0, 1)");
-  let borderWidth = parameters.borderWidth || 1;
-  let borderPadding = parameters.borderPadding || 20;
-  let background = chroma(parameters.background || "rgba(0, 0, 0, 0)");
-  let nodeColor = chroma(parameters.nodeColor || "rgba(0, 0, 0, 1)");
-  let nodeRadius = parameters.nodeRadius || 3;
-  let traceColor = chroma(parameters.traceColor || "rgba(255, 155, 155, 0.5)");
-  let traceWidth = parameters.traceWidth || 5;
+    this.canvas = new Canvas(width * glyphSequence.length, height);
+    let context = this.canvas.getContext("2d");
 
-  // the top and bottom points of the hexagon are cut off
-  // subtracting the border width for each point out from the full height of the desired glyph height
-  // leaves room for the points to render
-  let innerRadius = (height - borderWidth * 2) / 2;
-  let nodeCoordinates = Nodes(innerRadius, borderPadding);
+    // the top and bottom points of the hexagon are cut off
+    // subtracting the border width for each point out from the full height of the desired glyph height
+    // leaves room for the points of the hex to render
+    let hexRadius = (height - borderWidth * 2) / 2;
 
-  let canvas = new Canvas(height, width);
-  let context = canvas.getContext("2d");
+    glyphSequence.forEach( (glyph, index) => {
+      let edges = Glyphs.find((element) => {
+        return element.name.indexOf(glyph) > -1;
+      }).edges;
 
-  DrawGlyph.hexagon(canvas, innerRadius, borderWidth, borderColor);
-  DrawGlyph.nodes(context, nodeCoordinates, nodeRadius, nodeColor);
-  DrawGlyph.glyph(context, nodeCoordinates, edges, traceWidth, traceColor);
+      let nodeCoordinates = Nodes(hexRadius, borderPadding, width * index);
 
-  return canvas.toDataURL();
+      let center = {
+        x: width / 2 + (width * index),
+        y: height / 2
+      };
+
+      DrawGlyph.hexagon(this.canvas, hexRadius, borderWidth, borderColor, center.x, center.y);
+      DrawGlyph.nodes(context, nodeCoordinates, nodeRadius, nodeColor);
+      DrawGlyph.glyph(context, nodeCoordinates, edges, traceWidth, traceColor);
+    });
+  }
+
+  get dataUrl() {
+    return this.canvas.toDataURL();
+  }
+
+  get buffer() {
+    return this.canvas.toDataURL().replace('data:image/png;base64,', '')
+  }
 }
