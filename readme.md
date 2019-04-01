@@ -1,4 +1,4 @@
-The app should boot up just fine with NPM 4.1.1 and Node 7.8.0. Just run an `npm install` and then an `npm run start`, the app should be available at 
+The app should boot up just fine with NPM 4.1.1 and Node 7.8.0. Just run an `npm install`, `npm run build`, and then an `npm run start`, the app should be available at 
 [http://localhost:3000](http://localhost:3000)
 
 The project is basically three things: a dictionary of glyphs from the game Ingress, a rendering engine to turn an abstract model of that glyph into a DOM canvas, and then a Node/Express app to make that DOM available in a browser.
