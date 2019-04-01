@@ -12,7 +12,7 @@ class GlyphCanvas extends React.Component {
     // subtracting the border width for each point out from the full height of the desired glyph height
     // leaves room for the points to render
     let innerRadius = (this.props.style.height - this.props.style.borderWidth * 2) / 2;
-    let nodeCoordinates = Nodes(innerRadius, this.props.style.borderPadding);
+    let nodeCoordinates = Nodes({ radius: innerRadius, padding: this.props.style.borderPadding });
     let center = {
       x: this.canvas.width / 2,
       y: this.canvas.height / 2,

@@ -24,17 +24,23 @@ const positions = {
     "CENTER": [0,0]
 };
 
-function nodePositions(radius, padding, xOffset = 0, yOffset = 0) {
-    var nodePositions = {};
-    var shrinkage = (100 - padding) / 100; // padding is essentially a whole % number meaning how many percent towards the edge of the unit circle, and is flipped around to get a simple multiplicative value "shrinkage"
+/**
+ *
+ * @param radius
+ * @param padding - a percentage number towards the edge of the unit circle
+ * @param xOffset
+ * @param yOffset
+ */
+export default ({ radius, padding, xOffset = 0, yOffset = 0 }) => {
+    // padding is essentially a whole % number meaning how many percent towards the edge of the unit circle, and is flipped around to get a simple multiplicative value "shrinkage"
+    const shrinkage = (100 - padding) / 100
+    const nodePositions = {}
 
     Object.keys(positions).forEach(key => {
         nodePositions[key] = {};
         nodePositions[key]['x'] = positions[key][0] * radius * shrinkage + xOffset; // pull the coordinates away from the edge of the unit circle by multiplying by shrinkage
         nodePositions[key]['y'] = positions[key][1] * radius * shrinkage + yOffset;
-    });
+    })
 
-    return nodePositions;
+    return nodePositions
 }
-
-module.exports = nodePositions;
