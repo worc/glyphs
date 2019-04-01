@@ -1,4 +1,4 @@
-import Polygon from "./Polygon";
+import { generateCoordinates } from "./Polygon";
 
 export default class DrawGlyph {
   /**
@@ -14,7 +14,13 @@ export default class DrawGlyph {
   static hexagon(canvas, radius, borderWidth, strokeStyle, xPosition, yPosition) {
     if(borderWidth > 0) {
       let context = canvas.getContext("2d");
-      let coordinates = Polygon.generateCoordinates(xPosition, yPosition, 6, radius, Math.PI/6);
+      let coordinates = generateCoordinates({
+        centerX: xPosition,
+        centerY: yPosition,
+        numberOfSides: 6,
+        radius,
+        rotation: Math.PI/6,
+      });
 
       context.lineWidth = borderWidth;
       context.strokeStyle = strokeStyle.css(); // color styles handed down are chroma objects and can be converted to css strings with the css() prototype
